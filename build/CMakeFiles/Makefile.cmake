@@ -19,7 +19,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../test/CMakeLists.txt"
   "../test/Integration/CMakeLists.txt"
   "../test/Unit/CMakeLists.txt"
-  "../test/Unit/MathTokenizer/CMakeLists.txt"
+  "../test/Unit/Tokens/CMakeLists.txt"
+  "../test/Unit/Tokens/Number/CMakeLists.txt"
   "/usr/share/cmake-3.2/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.2/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-3.2/Modules/CMakeCommonLanguageInclude.cmake"
@@ -56,7 +57,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "test/CMakeFiles/CMakeDirectoryInformation.cmake"
   "test/Unit/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "test/Unit/MathTokenizer/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "test/Unit/Tokens/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "test/Unit/Tokens/Number/CMakeFiles/CMakeDirectoryInformation.cmake"
   "test/Integration/CMakeFiles/CMakeDirectoryInformation.cmake"
   "test/Acceptance/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/CMakeFiles/CMakeDirectoryInformation.cmake"
@@ -67,6 +69,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "test/CMakeFiles/gtest.dir/DependInfo.cmake"
   "test/CMakeFiles/gmock.dir/DependInfo.cmake"
-  "test/Unit/MathTokenizer/CMakeFiles/UT_MathTokenizer.dir/DependInfo.cmake"
+  "test/Unit/Tokens/Number/CMakeFiles/UT_Tokens_Number.dir/DependInfo.cmake"
   "src/MathTokenizer/CMakeFiles/libMathTokenizer.dir/DependInfo.cmake"
   )

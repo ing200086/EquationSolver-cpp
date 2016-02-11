@@ -1,40 +1,28 @@
-Start testing: Feb 10 19:56 CST
+Start testing: Feb 11 07:38 CST
 ----------------------------------------------------------
-1/1 Testing: UT_MathTokenizer
-1/1 Test: UT_MathTokenizer
-Command: "/home/daniel/Workspace/EquationSolver-cpp/build/test/Unit/MathTokenizer/UT_MathTokenizer"
-Directory: /home/daniel/Workspace/EquationSolver-cpp/build/test/Unit/MathTokenizer
-"UT_MathTokenizer" start time: Feb 10 19:56 CST
+1/1 Testing: UT_Tokens_Number
+1/1 Test: UT_Tokens_Number
+Command: "/home/daniel/Workspace/EquationSolver-cpp/build/test/Unit/Tokens/Number/UT_Tokens_Number"
+Directory: /home/daniel/Workspace/EquationSolver-cpp/build/test/Unit/Tokens/Number
+"UT_Tokens_Number" start time: Feb 11 07:38 CST
 Output:
 ----------------------------------------------------------
-[==========] Running 3 tests from 1 test case.
+[==========] Running 1 test from 1 test case.
 [----------] Global test environment set-up.
-[----------] 3 tests from Tokenizer
-[ RUN      ] Tokenizer.ReadsNumbersAsOneToken
-[       OK ] Tokenizer.ReadsNumbersAsOneToken (0 ms)
-[ RUN      ] Tokenizer.ReadsWordAsOneToken
-[       OK ] Tokenizer.ReadsWordAsOneToken (0 ms)
-[ RUN      ] Tokenizer.ReadsTwoTokens
-/home/daniel/Workspace/EquationSolver-cpp/test/Unit/MathTokenizer/MathTokenizer.cpp:53: Failure
-Value of: _token1.stringValue()
-Expected: is equal to 0x49bedc pointing to "function"
-  Actual: "function1"
-[  FAILED  ] Tokenizer.ReadsTwoTokens (0 ms)
-[----------] 3 tests from Tokenizer (0 ms total)
+[----------] 1 test from NumberToken
+[ RUN      ] NumberToken.ConstructsEmptyAndAcceptsNumbers
+[       OK ] NumberToken.ConstructsEmptyAndAcceptsNumbers (0 ms)
+[----------] 1 test from NumberToken (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 3 tests from 1 test case ran. (0 ms total)
-[  PASSED  ] 2 tests.
-[  FAILED  ] 1 test, listed below:
-[  FAILED  ] Tokenizer.ReadsTwoTokens
-
- 1 FAILED TEST
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
-Test Failed.
-"UT_MathTokenizer" end time: Feb 10 19:56 CST
-"UT_MathTokenizer" time elapsed: 00:00:00
+Test Passed.
+"UT_Tokens_Number" end time: Feb 11 07:38 CST
+"UT_Tokens_Number" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Feb 10 19:56 CST
+End testing: Feb 11 07:38 CST

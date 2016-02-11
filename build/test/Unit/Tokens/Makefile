@@ -82,14 +82,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/Workspace/EquationSolver-cpp/build/CMakeFiles /home/daniel/Workspace/EquationSolver-cpp/build/CMakeFiles/progress.marks
-	$(MAKE) -f CMakeFiles/Makefile2 all
+	cd /home/daniel/Workspace/EquationSolver-cpp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/Workspace/EquationSolver-cpp/build/CMakeFiles /home/daniel/Workspace/EquationSolver-cpp/build/test/Unit/Tokens/CMakeFiles/progress.marks
+	cd /home/daniel/Workspace/EquationSolver-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 test/Unit/Tokens/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/Workspace/EquationSolver-cpp/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) -f CMakeFiles/Makefile2 clean
+	cd /home/daniel/Workspace/EquationSolver-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 test/Unit/Tokens/clean
 .PHONY : clean
 
 # The main clean target
@@ -98,70 +98,18 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /home/daniel/Workspace/EquationSolver-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 test/Unit/Tokens/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /home/daniel/Workspace/EquationSolver-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 test/Unit/Tokens/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/daniel/Workspace/EquationSolver-cpp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
-
-#=============================================================================
-# Target rules for targets named gmock
-
-# Build rule for target.
-gmock: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 gmock
-.PHONY : gmock
-
-# fast build rule for target.
-gmock/fast:
-	$(MAKE) -f test/CMakeFiles/gmock.dir/build.make test/CMakeFiles/gmock.dir/build
-.PHONY : gmock/fast
-
-#=============================================================================
-# Target rules for targets named gtest
-
-# Build rule for target.
-gtest: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 gtest
-.PHONY : gtest
-
-# fast build rule for target.
-gtest/fast:
-	$(MAKE) -f test/CMakeFiles/gtest.dir/build.make test/CMakeFiles/gtest.dir/build
-.PHONY : gtest/fast
-
-#=============================================================================
-# Target rules for targets named UT_Tokens_Number
-
-# Build rule for target.
-UT_Tokens_Number: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 UT_Tokens_Number
-.PHONY : UT_Tokens_Number
-
-# fast build rule for target.
-UT_Tokens_Number/fast:
-	$(MAKE) -f test/Unit/Tokens/Number/CMakeFiles/UT_Tokens_Number.dir/build.make test/Unit/Tokens/Number/CMakeFiles/UT_Tokens_Number.dir/build
-.PHONY : UT_Tokens_Number/fast
-
-#=============================================================================
-# Target rules for targets named libMathTokenizer
-
-# Build rule for target.
-libMathTokenizer: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 libMathTokenizer
-.PHONY : libMathTokenizer
-
-# fast build rule for target.
-libMathTokenizer/fast:
-	$(MAKE) -f src/MathTokenizer/CMakeFiles/libMathTokenizer.dir/build.make src/MathTokenizer/CMakeFiles/libMathTokenizer.dir/build
-.PHONY : libMathTokenizer/fast
 
 # Help Target
 help:
@@ -172,10 +120,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... gtest"
-	@echo "... gmock"
-	@echo "... UT_Tokens_Number"
-	@echo "... libMathTokenizer"
 .PHONY : help
 
 
@@ -187,6 +131,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/daniel/Workspace/EquationSolver-cpp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
