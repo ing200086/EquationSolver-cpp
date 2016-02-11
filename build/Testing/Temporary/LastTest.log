@@ -1,30 +1,40 @@
-Start testing: Feb 10 07:46 CST
+Start testing: Feb 10 19:56 CST
 ----------------------------------------------------------
 1/1 Testing: UT_MathTokenizer
 1/1 Test: UT_MathTokenizer
 Command: "/home/daniel/Workspace/EquationSolver-cpp/build/test/Unit/MathTokenizer/UT_MathTokenizer"
 Directory: /home/daniel/Workspace/EquationSolver-cpp/build/test/Unit/MathTokenizer
-"UT_MathTokenizer" start time: Feb 10 07:46 CST
+"UT_MathTokenizer" start time: Feb 10 19:56 CST
 Output:
 ----------------------------------------------------------
-[==========] Running 2 tests from 1 test case.
+[==========] Running 3 tests from 1 test case.
 [----------] Global test environment set-up.
-[----------] 2 tests from Tokenizer
+[----------] 3 tests from Tokenizer
 [ RUN      ] Tokenizer.ReadsNumbersAsOneToken
 [       OK ] Tokenizer.ReadsNumbersAsOneToken (0 ms)
 [ RUN      ] Tokenizer.ReadsWordAsOneToken
 [       OK ] Tokenizer.ReadsWordAsOneToken (0 ms)
-[----------] 2 tests from Tokenizer (0 ms total)
+[ RUN      ] Tokenizer.ReadsTwoTokens
+/home/daniel/Workspace/EquationSolver-cpp/test/Unit/MathTokenizer/MathTokenizer.cpp:53: Failure
+Value of: _token1.stringValue()
+Expected: is equal to 0x49bedc pointing to "function"
+  Actual: "function1"
+[  FAILED  ] Tokenizer.ReadsTwoTokens (0 ms)
+[----------] 3 tests from Tokenizer (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 2 tests from 1 test case ran. (0 ms total)
+[==========] 3 tests from 1 test case ran. (0 ms total)
 [  PASSED  ] 2 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] Tokenizer.ReadsTwoTokens
+
+ 1 FAILED TEST
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
-Test Passed.
-"UT_MathTokenizer" end time: Feb 10 07:46 CST
+Test Failed.
+"UT_MathTokenizer" end time: Feb 10 19:56 CST
 "UT_MathTokenizer" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Feb 10 07:46 CST
+End testing: Feb 10 19:56 CST

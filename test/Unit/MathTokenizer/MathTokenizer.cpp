@@ -43,3 +43,13 @@ TEST(Tokenizer, ReadsWordAsOneToken) {
 	ASSERT_THAT(_token.stringValue(), Eq("function"));
 }
 
+TEST(Tokenizer, ReadsTwoTokens) {
+	MathTokenizer _reader;
+	_reader.loadString("function1");
+
+	Token _token1 = _reader.pop();
+	Token _token2 = _reader.pop();
+
+	ASSERT_THAT(_token1.stringValue(), Eq("function"));
+	ASSERT_THAT(_token1.stringValue(), Eq("1"));
+}
