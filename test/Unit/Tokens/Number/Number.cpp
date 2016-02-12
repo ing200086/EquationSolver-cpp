@@ -16,18 +16,16 @@ class Number {
 using ::Token::Number;
 
 #include "gmock/gmock.h"
-	using ::testing::Eq;
 	using ::testing::TestWithParam;
 	using ::testing::Values;
 
-class ValidIntegers: public TestWithParam<char> {
-
-};
+class ValidIntegers: public TestWithParam<char> {  };
 
 TEST_P(ValidIntegers, GeneratesLotsOfSumsFromTwoNumbers) {
-	char input = GetParam();
 	Number _numberToken;
-	ASSERT_THAT(_numberToken.accepts(input), Eq(true));
+	ASSERT_TRUE(_numberToken.accepts(GetParam()));
 }
 
-INSTANTIATE_TEST_CASE_P(BulkTest, ValidIntegers, Values('1', '2'));
+INSTANTIATE_TEST_CASE_P(BulkTest, ValidIntegers, Values(
+    '0', '1', '2', '3', '4', '5', '6', '7', '8', '9'
+    ));
