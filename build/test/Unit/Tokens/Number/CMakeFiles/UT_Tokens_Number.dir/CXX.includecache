@@ -7,10 +7,10 @@
 #IncludeRegexTransform: 
 
 /home/daniel/Workspace/EquationSolver-cpp/test/Unit/Tokens/Number/Number.cpp
-gmock/gmock.h
-/home/daniel/Workspace/EquationSolver-cpp/test/Unit/Tokens/Number/gmock/gmock.h
 string
 -
+gmock/gmock.h
+/home/daniel/Workspace/EquationSolver-cpp/test/Unit/Tokens/Number/gmock/gmock.h
 
 /home/daniel/Workspace/EquationSolver-cpp/test/Unit/main.cpp
 gmock/gmock.h

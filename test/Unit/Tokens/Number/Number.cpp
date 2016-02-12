@@ -1,6 +1,3 @@
-#include "gmock/gmock.h"
-	using ::testing::Eq;
-
 #include <string>
 	using ::std::string;
 
@@ -18,8 +15,19 @@ class Number {
 
 using ::Token::Number;
 
-TEST(NumberToken, ConstructsEmptyAndAcceptsNumbers) {
-	Number *_token = new Number();
+#include "gmock/gmock.h"
+	using ::testing::Eq;
+	using ::testing::TestWithParam;
+	using ::testing::Values;
 
-	ASSERT_THAT((*_token).accepts('1'), Eq(true));
+class ValidIntegers: public TestWithParam<char> {
+
+};
+
+TEST_P(ValidIntegers, GeneratesLotsOfSumsFromTwoNumbers) {
+	char input = GetParam();
+	Number _numberToken;
+	ASSERT_THAT(_numberToken.accepts(input), Eq(true));
 }
+
+INSTANTIATE_TEST_CASE_P(BulkTest, ValidIntegers, Values('1', '2'));

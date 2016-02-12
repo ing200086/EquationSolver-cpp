@@ -1,28 +1,30 @@
-Start testing: Feb 11 07:38 CST
+Start testing: Feb 12 07:29 CST
 ----------------------------------------------------------
 1/1 Testing: UT_Tokens_Number
 1/1 Test: UT_Tokens_Number
 Command: "/home/daniel/Workspace/EquationSolver-cpp/build/test/Unit/Tokens/Number/UT_Tokens_Number"
 Directory: /home/daniel/Workspace/EquationSolver-cpp/build/test/Unit/Tokens/Number
-"UT_Tokens_Number" start time: Feb 11 07:38 CST
+"UT_Tokens_Number" start time: Feb 12 07:29 CST
 Output:
 ----------------------------------------------------------
-[==========] Running 1 test from 1 test case.
+[==========] Running 2 tests from 1 test case.
 [----------] Global test environment set-up.
-[----------] 1 test from NumberToken
-[ RUN      ] NumberToken.ConstructsEmptyAndAcceptsNumbers
-[       OK ] NumberToken.ConstructsEmptyAndAcceptsNumbers (0 ms)
-[----------] 1 test from NumberToken (0 ms total)
+[----------] 2 tests from BulkTest/ValidIntegers
+[ RUN      ] BulkTest/ValidIntegers.GeneratesLotsOfSumsFromTwoNumbers/0
+[       OK ] BulkTest/ValidIntegers.GeneratesLotsOfSumsFromTwoNumbers/0 (0 ms)
+[ RUN      ] BulkTest/ValidIntegers.GeneratesLotsOfSumsFromTwoNumbers/1
+[       OK ] BulkTest/ValidIntegers.GeneratesLotsOfSumsFromTwoNumbers/1 (0 ms)
+[----------] 2 tests from BulkTest/ValidIntegers (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test case ran. (0 ms total)
-[  PASSED  ] 1 test.
+[==========] 2 tests from 1 test case ran. (0 ms total)
+[  PASSED  ] 2 tests.
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"UT_Tokens_Number" end time: Feb 11 07:38 CST
+"UT_Tokens_Number" end time: Feb 12 07:29 CST
 "UT_Tokens_Number" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Feb 11 07:38 CST
+End testing: Feb 12 07:29 CST
