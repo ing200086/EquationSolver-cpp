@@ -95,16 +95,41 @@ test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/Number/NumberTest.cpp.o.provide
 
 test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/Number/NumberTest.cpp.o.provides.build: test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/Number/NumberTest.cpp.o
 
+test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/Word/WordTest.cpp.o: test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/flags.make
+test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/Word/WordTest.cpp.o: ../test/Unit/Token/Lexical/Word/WordTest.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/daniel/Workspace/EquationSolver-cpp/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/Word/WordTest.cpp.o"
+	cd /home/daniel/Workspace/EquationSolver-cpp/build/test/Unit/Token/Lexical && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/UT_Tokens.dir/Word/WordTest.cpp.o -c /home/daniel/Workspace/EquationSolver-cpp/test/Unit/Token/Lexical/Word/WordTest.cpp
+
+test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/Word/WordTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UT_Tokens.dir/Word/WordTest.cpp.i"
+	cd /home/daniel/Workspace/EquationSolver-cpp/build/test/Unit/Token/Lexical && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/daniel/Workspace/EquationSolver-cpp/test/Unit/Token/Lexical/Word/WordTest.cpp > CMakeFiles/UT_Tokens.dir/Word/WordTest.cpp.i
+
+test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/Word/WordTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UT_Tokens.dir/Word/WordTest.cpp.s"
+	cd /home/daniel/Workspace/EquationSolver-cpp/build/test/Unit/Token/Lexical && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/daniel/Workspace/EquationSolver-cpp/test/Unit/Token/Lexical/Word/WordTest.cpp -o CMakeFiles/UT_Tokens.dir/Word/WordTest.cpp.s
+
+test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/Word/WordTest.cpp.o.requires:
+.PHONY : test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/Word/WordTest.cpp.o.requires
+
+test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/Word/WordTest.cpp.o.provides: test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/Word/WordTest.cpp.o.requires
+	$(MAKE) -f test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/build.make test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/Word/WordTest.cpp.o.provides.build
+.PHONY : test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/Word/WordTest.cpp.o.provides
+
+test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/Word/WordTest.cpp.o.provides.build: test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/Word/WordTest.cpp.o
+
 # Object files for target UT_Tokens
 UT_Tokens_OBJECTS = \
 "CMakeFiles/UT_Tokens.dir/__/__/main.cpp.o" \
-"CMakeFiles/UT_Tokens.dir/Number/NumberTest.cpp.o"
+"CMakeFiles/UT_Tokens.dir/Number/NumberTest.cpp.o" \
+"CMakeFiles/UT_Tokens.dir/Word/WordTest.cpp.o"
 
 # External object files for target UT_Tokens
 UT_Tokens_EXTERNAL_OBJECTS =
 
 test/Unit/Token/Lexical/UT_Tokens: test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/__/__/main.cpp.o
 test/Unit/Token/Lexical/UT_Tokens: test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/Number/NumberTest.cpp.o
+test/Unit/Token/Lexical/UT_Tokens: test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/Word/WordTest.cpp.o
 test/Unit/Token/Lexical/UT_Tokens: test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/build.make
 test/Unit/Token/Lexical/UT_Tokens: src/Token/Lexical/libTokenLexical.a
 test/Unit/Token/Lexical/UT_Tokens: test/gtest/src/gtest-build/libgtest.a
@@ -119,6 +144,7 @@ test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/build: test/Unit/Token/Lexical/
 
 test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/requires: test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/__/__/main.cpp.o.requires
 test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/requires: test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/Number/NumberTest.cpp.o.requires
+test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/requires: test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/Word/WordTest.cpp.o.requires
 .PHONY : test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/requires
 
 test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/clean:

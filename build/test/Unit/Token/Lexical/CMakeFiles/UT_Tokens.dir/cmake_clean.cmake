@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/UT_Tokens.dir/__/__/main.cpp.o"
   "CMakeFiles/UT_Tokens.dir/Number/NumberTest.cpp.o"
+  "CMakeFiles/UT_Tokens.dir/Word/WordTest.cpp.o"
   "UT_Tokens.pdb"
   "UT_Tokens"
 )

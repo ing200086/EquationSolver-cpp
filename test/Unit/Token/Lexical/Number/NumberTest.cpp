@@ -11,7 +11,7 @@ INSTANTIATE_TEST_CASE_P(ValidIntegers, TestValidIntegers,
 
 class TestNonIntegers: public NumberTester {  };
 
-TEST_P(TestNonIntegers, AreAccepted) {
+TEST_P(TestNonIntegers, AreRejected) {
 	ASSERT_FALSE(_numberToken->accepts(GetParam()));
 }
 

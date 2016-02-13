@@ -1,13 +1,13 @@
-Start testing: Feb 12 19:04 CST
+Start testing: Feb 12 19:35 CST
 ----------------------------------------------------------
 1/1 Testing: UT_Tokens
 1/1 Test: UT_Tokens
 Command: "/home/daniel/Workspace/EquationSolver-cpp/build/test/Unit/Token/Lexical/UT_Tokens"
 Directory: /home/daniel/Workspace/EquationSolver-cpp/build/test/Unit/Token/Lexical
-"UT_Tokens" start time: Feb 12 19:04 CST
+"UT_Tokens" start time: Feb 12 19:35 CST
 Output:
 ----------------------------------------------------------
-[==========] Running 41 tests from 3 test cases.
+[==========] Running 82 tests from 6 test cases.
 [----------] Global test environment set-up.
 [----------] 10 tests from ValidIntegers/TestValidIntegers
 [ RUN      ] ValidIntegers/TestValidIntegers.AreAccepted/0
@@ -33,82 +33,173 @@ Output:
 [----------] 10 tests from ValidIntegers/TestValidIntegers (0 ms total)
 
 [----------] 26 tests from Alphas/TestNonIntegers
-[ RUN      ] Alphas/TestNonIntegers.AreAccepted/0
-[       OK ] Alphas/TestNonIntegers.AreAccepted/0 (0 ms)
-[ RUN      ] Alphas/TestNonIntegers.AreAccepted/1
-[       OK ] Alphas/TestNonIntegers.AreAccepted/1 (0 ms)
-[ RUN      ] Alphas/TestNonIntegers.AreAccepted/2
-[       OK ] Alphas/TestNonIntegers.AreAccepted/2 (0 ms)
-[ RUN      ] Alphas/TestNonIntegers.AreAccepted/3
-[       OK ] Alphas/TestNonIntegers.AreAccepted/3 (0 ms)
-[ RUN      ] Alphas/TestNonIntegers.AreAccepted/4
-[       OK ] Alphas/TestNonIntegers.AreAccepted/4 (0 ms)
-[ RUN      ] Alphas/TestNonIntegers.AreAccepted/5
-[       OK ] Alphas/TestNonIntegers.AreAccepted/5 (0 ms)
-[ RUN      ] Alphas/TestNonIntegers.AreAccepted/6
-[       OK ] Alphas/TestNonIntegers.AreAccepted/6 (0 ms)
-[ RUN      ] Alphas/TestNonIntegers.AreAccepted/7
-[       OK ] Alphas/TestNonIntegers.AreAccepted/7 (0 ms)
-[ RUN      ] Alphas/TestNonIntegers.AreAccepted/8
-[       OK ] Alphas/TestNonIntegers.AreAccepted/8 (0 ms)
-[ RUN      ] Alphas/TestNonIntegers.AreAccepted/9
-[       OK ] Alphas/TestNonIntegers.AreAccepted/9 (0 ms)
-[ RUN      ] Alphas/TestNonIntegers.AreAccepted/10
-[       OK ] Alphas/TestNonIntegers.AreAccepted/10 (0 ms)
-[ RUN      ] Alphas/TestNonIntegers.AreAccepted/11
-[       OK ] Alphas/TestNonIntegers.AreAccepted/11 (0 ms)
-[ RUN      ] Alphas/TestNonIntegers.AreAccepted/12
-[       OK ] Alphas/TestNonIntegers.AreAccepted/12 (0 ms)
-[ RUN      ] Alphas/TestNonIntegers.AreAccepted/13
-[       OK ] Alphas/TestNonIntegers.AreAccepted/13 (0 ms)
-[ RUN      ] Alphas/TestNonIntegers.AreAccepted/14
-[       OK ] Alphas/TestNonIntegers.AreAccepted/14 (0 ms)
-[ RUN      ] Alphas/TestNonIntegers.AreAccepted/15
-[       OK ] Alphas/TestNonIntegers.AreAccepted/15 (0 ms)
-[ RUN      ] Alphas/TestNonIntegers.AreAccepted/16
-[       OK ] Alphas/TestNonIntegers.AreAccepted/16 (0 ms)
-[ RUN      ] Alphas/TestNonIntegers.AreAccepted/17
-[       OK ] Alphas/TestNonIntegers.AreAccepted/17 (0 ms)
-[ RUN      ] Alphas/TestNonIntegers.AreAccepted/18
-[       OK ] Alphas/TestNonIntegers.AreAccepted/18 (0 ms)
-[ RUN      ] Alphas/TestNonIntegers.AreAccepted/19
-[       OK ] Alphas/TestNonIntegers.AreAccepted/19 (0 ms)
-[ RUN      ] Alphas/TestNonIntegers.AreAccepted/20
-[       OK ] Alphas/TestNonIntegers.AreAccepted/20 (0 ms)
-[ RUN      ] Alphas/TestNonIntegers.AreAccepted/21
-[       OK ] Alphas/TestNonIntegers.AreAccepted/21 (0 ms)
-[ RUN      ] Alphas/TestNonIntegers.AreAccepted/22
-[       OK ] Alphas/TestNonIntegers.AreAccepted/22 (0 ms)
-[ RUN      ] Alphas/TestNonIntegers.AreAccepted/23
-[       OK ] Alphas/TestNonIntegers.AreAccepted/23 (0 ms)
-[ RUN      ] Alphas/TestNonIntegers.AreAccepted/24
-[       OK ] Alphas/TestNonIntegers.AreAccepted/24 (0 ms)
-[ RUN      ] Alphas/TestNonIntegers.AreAccepted/25
-[       OK ] Alphas/TestNonIntegers.AreAccepted/25 (0 ms)
-[----------] 26 tests from Alphas/TestNonIntegers (0 ms total)
+[ RUN      ] Alphas/TestNonIntegers.AreRejected/0
+[       OK ] Alphas/TestNonIntegers.AreRejected/0 (0 ms)
+[ RUN      ] Alphas/TestNonIntegers.AreRejected/1
+[       OK ] Alphas/TestNonIntegers.AreRejected/1 (0 ms)
+[ RUN      ] Alphas/TestNonIntegers.AreRejected/2
+[       OK ] Alphas/TestNonIntegers.AreRejected/2 (0 ms)
+[ RUN      ] Alphas/TestNonIntegers.AreRejected/3
+[       OK ] Alphas/TestNonIntegers.AreRejected/3 (0 ms)
+[ RUN      ] Alphas/TestNonIntegers.AreRejected/4
+[       OK ] Alphas/TestNonIntegers.AreRejected/4 (0 ms)
+[ RUN      ] Alphas/TestNonIntegers.AreRejected/5
+[       OK ] Alphas/TestNonIntegers.AreRejected/5 (0 ms)
+[ RUN      ] Alphas/TestNonIntegers.AreRejected/6
+[       OK ] Alphas/TestNonIntegers.AreRejected/6 (0 ms)
+[ RUN      ] Alphas/TestNonIntegers.AreRejected/7
+[       OK ] Alphas/TestNonIntegers.AreRejected/7 (0 ms)
+[ RUN      ] Alphas/TestNonIntegers.AreRejected/8
+[       OK ] Alphas/TestNonIntegers.AreRejected/8 (0 ms)
+[ RUN      ] Alphas/TestNonIntegers.AreRejected/9
+[       OK ] Alphas/TestNonIntegers.AreRejected/9 (0 ms)
+[ RUN      ] Alphas/TestNonIntegers.AreRejected/10
+[       OK ] Alphas/TestNonIntegers.AreRejected/10 (0 ms)
+[ RUN      ] Alphas/TestNonIntegers.AreRejected/11
+[       OK ] Alphas/TestNonIntegers.AreRejected/11 (0 ms)
+[ RUN      ] Alphas/TestNonIntegers.AreRejected/12
+[       OK ] Alphas/TestNonIntegers.AreRejected/12 (0 ms)
+[ RUN      ] Alphas/TestNonIntegers.AreRejected/13
+[       OK ] Alphas/TestNonIntegers.AreRejected/13 (0 ms)
+[ RUN      ] Alphas/TestNonIntegers.AreRejected/14
+[       OK ] Alphas/TestNonIntegers.AreRejected/14 (0 ms)
+[ RUN      ] Alphas/TestNonIntegers.AreRejected/15
+[       OK ] Alphas/TestNonIntegers.AreRejected/15 (0 ms)
+[ RUN      ] Alphas/TestNonIntegers.AreRejected/16
+[       OK ] Alphas/TestNonIntegers.AreRejected/16 (0 ms)
+[ RUN      ] Alphas/TestNonIntegers.AreRejected/17
+[       OK ] Alphas/TestNonIntegers.AreRejected/17 (0 ms)
+[ RUN      ] Alphas/TestNonIntegers.AreRejected/18
+[       OK ] Alphas/TestNonIntegers.AreRejected/18 (0 ms)
+[ RUN      ] Alphas/TestNonIntegers.AreRejected/19
+[       OK ] Alphas/TestNonIntegers.AreRejected/19 (0 ms)
+[ RUN      ] Alphas/TestNonIntegers.AreRejected/20
+[       OK ] Alphas/TestNonIntegers.AreRejected/20 (0 ms)
+[ RUN      ] Alphas/TestNonIntegers.AreRejected/21
+[       OK ] Alphas/TestNonIntegers.AreRejected/21 (0 ms)
+[ RUN      ] Alphas/TestNonIntegers.AreRejected/22
+[       OK ] Alphas/TestNonIntegers.AreRejected/22 (0 ms)
+[ RUN      ] Alphas/TestNonIntegers.AreRejected/23
+[       OK ] Alphas/TestNonIntegers.AreRejected/23 (0 ms)
+[ RUN      ] Alphas/TestNonIntegers.AreRejected/24
+[       OK ] Alphas/TestNonIntegers.AreRejected/24 (0 ms)
+[ RUN      ] Alphas/TestNonIntegers.AreRejected/25
+[       OK ] Alphas/TestNonIntegers.AreRejected/25 (0 ms)
+[----------] 26 tests from Alphas/TestNonIntegers (1 ms total)
 
 [----------] 5 tests from Symbols/TestNonIntegers
-[ RUN      ] Symbols/TestNonIntegers.AreAccepted/0
-[       OK ] Symbols/TestNonIntegers.AreAccepted/0 (0 ms)
-[ RUN      ] Symbols/TestNonIntegers.AreAccepted/1
-[       OK ] Symbols/TestNonIntegers.AreAccepted/1 (0 ms)
-[ RUN      ] Symbols/TestNonIntegers.AreAccepted/2
-[       OK ] Symbols/TestNonIntegers.AreAccepted/2 (0 ms)
-[ RUN      ] Symbols/TestNonIntegers.AreAccepted/3
-[       OK ] Symbols/TestNonIntegers.AreAccepted/3 (0 ms)
-[ RUN      ] Symbols/TestNonIntegers.AreAccepted/4
-[       OK ] Symbols/TestNonIntegers.AreAccepted/4 (0 ms)
-[----------] 5 tests from Symbols/TestNonIntegers (1 ms total)
+[ RUN      ] Symbols/TestNonIntegers.AreRejected/0
+[       OK ] Symbols/TestNonIntegers.AreRejected/0 (0 ms)
+[ RUN      ] Symbols/TestNonIntegers.AreRejected/1
+[       OK ] Symbols/TestNonIntegers.AreRejected/1 (0 ms)
+[ RUN      ] Symbols/TestNonIntegers.AreRejected/2
+[       OK ] Symbols/TestNonIntegers.AreRejected/2 (0 ms)
+[ RUN      ] Symbols/TestNonIntegers.AreRejected/3
+[       OK ] Symbols/TestNonIntegers.AreRejected/3 (0 ms)
+[ RUN      ] Symbols/TestNonIntegers.AreRejected/4
+[       OK ] Symbols/TestNonIntegers.AreRejected/4 (0 ms)
+[----------] 5 tests from Symbols/TestNonIntegers (0 ms total)
+
+[----------] 26 tests from ValidAlphas/TestValidAlphas
+[ RUN      ] ValidAlphas/TestValidAlphas.AreAccepted/0
+[       OK ] ValidAlphas/TestValidAlphas.AreAccepted/0 (0 ms)
+[ RUN      ] ValidAlphas/TestValidAlphas.AreAccepted/1
+[       OK ] ValidAlphas/TestValidAlphas.AreAccepted/1 (0 ms)
+[ RUN      ] ValidAlphas/TestValidAlphas.AreAccepted/2
+[       OK ] ValidAlphas/TestValidAlphas.AreAccepted/2 (0 ms)
+[ RUN      ] ValidAlphas/TestValidAlphas.AreAccepted/3
+[       OK ] ValidAlphas/TestValidAlphas.AreAccepted/3 (0 ms)
+[ RUN      ] ValidAlphas/TestValidAlphas.AreAccepted/4
+[       OK ] ValidAlphas/TestValidAlphas.AreAccepted/4 (0 ms)
+[ RUN      ] ValidAlphas/TestValidAlphas.AreAccepted/5
+[       OK ] ValidAlphas/TestValidAlphas.AreAccepted/5 (0 ms)
+[ RUN      ] ValidAlphas/TestValidAlphas.AreAccepted/6
+[       OK ] ValidAlphas/TestValidAlphas.AreAccepted/6 (0 ms)
+[ RUN      ] ValidAlphas/TestValidAlphas.AreAccepted/7
+[       OK ] ValidAlphas/TestValidAlphas.AreAccepted/7 (0 ms)
+[ RUN      ] ValidAlphas/TestValidAlphas.AreAccepted/8
+[       OK ] ValidAlphas/TestValidAlphas.AreAccepted/8 (0 ms)
+[ RUN      ] ValidAlphas/TestValidAlphas.AreAccepted/9
+[       OK ] ValidAlphas/TestValidAlphas.AreAccepted/9 (0 ms)
+[ RUN      ] ValidAlphas/TestValidAlphas.AreAccepted/10
+[       OK ] ValidAlphas/TestValidAlphas.AreAccepted/10 (0 ms)
+[ RUN      ] ValidAlphas/TestValidAlphas.AreAccepted/11
+[       OK ] ValidAlphas/TestValidAlphas.AreAccepted/11 (0 ms)
+[ RUN      ] ValidAlphas/TestValidAlphas.AreAccepted/12
+[       OK ] ValidAlphas/TestValidAlphas.AreAccepted/12 (0 ms)
+[ RUN      ] ValidAlphas/TestValidAlphas.AreAccepted/13
+[       OK ] ValidAlphas/TestValidAlphas.AreAccepted/13 (0 ms)
+[ RUN      ] ValidAlphas/TestValidAlphas.AreAccepted/14
+[       OK ] ValidAlphas/TestValidAlphas.AreAccepted/14 (0 ms)
+[ RUN      ] ValidAlphas/TestValidAlphas.AreAccepted/15
+[       OK ] ValidAlphas/TestValidAlphas.AreAccepted/15 (0 ms)
+[ RUN      ] ValidAlphas/TestValidAlphas.AreAccepted/16
+[       OK ] ValidAlphas/TestValidAlphas.AreAccepted/16 (0 ms)
+[ RUN      ] ValidAlphas/TestValidAlphas.AreAccepted/17
+[       OK ] ValidAlphas/TestValidAlphas.AreAccepted/17 (0 ms)
+[ RUN      ] ValidAlphas/TestValidAlphas.AreAccepted/18
+[       OK ] ValidAlphas/TestValidAlphas.AreAccepted/18 (0 ms)
+[ RUN      ] ValidAlphas/TestValidAlphas.AreAccepted/19
+[       OK ] ValidAlphas/TestValidAlphas.AreAccepted/19 (0 ms)
+[ RUN      ] ValidAlphas/TestValidAlphas.AreAccepted/20
+[       OK ] ValidAlphas/TestValidAlphas.AreAccepted/20 (0 ms)
+[ RUN      ] ValidAlphas/TestValidAlphas.AreAccepted/21
+[       OK ] ValidAlphas/TestValidAlphas.AreAccepted/21 (0 ms)
+[ RUN      ] ValidAlphas/TestValidAlphas.AreAccepted/22
+[       OK ] ValidAlphas/TestValidAlphas.AreAccepted/22 (0 ms)
+[ RUN      ] ValidAlphas/TestValidAlphas.AreAccepted/23
+[       OK ] ValidAlphas/TestValidAlphas.AreAccepted/23 (0 ms)
+[ RUN      ] ValidAlphas/TestValidAlphas.AreAccepted/24
+[       OK ] ValidAlphas/TestValidAlphas.AreAccepted/24 (0 ms)
+[ RUN      ] ValidAlphas/TestValidAlphas.AreAccepted/25
+[       OK ] ValidAlphas/TestValidAlphas.AreAccepted/25 (0 ms)
+[----------] 26 tests from ValidAlphas/TestValidAlphas (1 ms total)
+
+[----------] 10 tests from Integers/TestNonAlphas
+[ RUN      ] Integers/TestNonAlphas.AreRejected/0
+[       OK ] Integers/TestNonAlphas.AreRejected/0 (0 ms)
+[ RUN      ] Integers/TestNonAlphas.AreRejected/1
+[       OK ] Integers/TestNonAlphas.AreRejected/1 (0 ms)
+[ RUN      ] Integers/TestNonAlphas.AreRejected/2
+[       OK ] Integers/TestNonAlphas.AreRejected/2 (0 ms)
+[ RUN      ] Integers/TestNonAlphas.AreRejected/3
+[       OK ] Integers/TestNonAlphas.AreRejected/3 (0 ms)
+[ RUN      ] Integers/TestNonAlphas.AreRejected/4
+[       OK ] Integers/TestNonAlphas.AreRejected/4 (0 ms)
+[ RUN      ] Integers/TestNonAlphas.AreRejected/5
+[       OK ] Integers/TestNonAlphas.AreRejected/5 (0 ms)
+[ RUN      ] Integers/TestNonAlphas.AreRejected/6
+[       OK ] Integers/TestNonAlphas.AreRejected/6 (0 ms)
+[ RUN      ] Integers/TestNonAlphas.AreRejected/7
+[       OK ] Integers/TestNonAlphas.AreRejected/7 (0 ms)
+[ RUN      ] Integers/TestNonAlphas.AreRejected/8
+[       OK ] Integers/TestNonAlphas.AreRejected/8 (0 ms)
+[ RUN      ] Integers/TestNonAlphas.AreRejected/9
+[       OK ] Integers/TestNonAlphas.AreRejected/9 (0 ms)
+[----------] 10 tests from Integers/TestNonAlphas (0 ms total)
+
+[----------] 5 tests from Symbols/TestNonAlphas
+[ RUN      ] Symbols/TestNonAlphas.AreRejected/0
+[       OK ] Symbols/TestNonAlphas.AreRejected/0 (0 ms)
+[ RUN      ] Symbols/TestNonAlphas.AreRejected/1
+[       OK ] Symbols/TestNonAlphas.AreRejected/1 (0 ms)
+[ RUN      ] Symbols/TestNonAlphas.AreRejected/2
+[       OK ] Symbols/TestNonAlphas.AreRejected/2 (0 ms)
+[ RUN      ] Symbols/TestNonAlphas.AreRejected/3
+[       OK ] Symbols/TestNonAlphas.AreRejected/3 (0 ms)
+[ RUN      ] Symbols/TestNonAlphas.AreRejected/4
+[       OK ] Symbols/TestNonAlphas.AreRejected/4 (0 ms)
+[----------] 5 tests from Symbols/TestNonAlphas (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 41 tests from 3 test cases ran. (1 ms total)
-[  PASSED  ] 41 tests.
+[==========] 82 tests from 6 test cases ran. (2 ms total)
+[  PASSED  ] 82 tests.
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"UT_Tokens" end time: Feb 12 19:04 CST
+"UT_Tokens" end time: Feb 12 19:35 CST
 "UT_Tokens" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Feb 12 19:04 CST
+End testing: Feb 12 19:35 CST

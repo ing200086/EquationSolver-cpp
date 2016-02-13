@@ -149,6 +149,30 @@ Number/NumberTest.cpp.s:
 	cd /home/daniel/Workspace/EquationSolver-cpp/build && $(MAKE) -f test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/build.make test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/Number/NumberTest.cpp.s
 .PHONY : Number/NumberTest.cpp.s
 
+Word/WordTest.o: Word/WordTest.cpp.o
+.PHONY : Word/WordTest.o
+
+# target to build an object file
+Word/WordTest.cpp.o:
+	cd /home/daniel/Workspace/EquationSolver-cpp/build && $(MAKE) -f test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/build.make test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/Word/WordTest.cpp.o
+.PHONY : Word/WordTest.cpp.o
+
+Word/WordTest.i: Word/WordTest.cpp.i
+.PHONY : Word/WordTest.i
+
+# target to preprocess a source file
+Word/WordTest.cpp.i:
+	cd /home/daniel/Workspace/EquationSolver-cpp/build && $(MAKE) -f test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/build.make test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/Word/WordTest.cpp.i
+.PHONY : Word/WordTest.cpp.i
+
+Word/WordTest.s: Word/WordTest.cpp.s
+.PHONY : Word/WordTest.s
+
+# target to generate assembly for a file
+Word/WordTest.cpp.s:
+	cd /home/daniel/Workspace/EquationSolver-cpp/build && $(MAKE) -f test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/build.make test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/Word/WordTest.cpp.s
+.PHONY : Word/WordTest.cpp.s
+
 __/__/main.o: __/__/main.cpp.o
 .PHONY : __/__/main.o
 
@@ -186,6 +210,9 @@ help:
 	@echo "... Number/NumberTest.o"
 	@echo "... Number/NumberTest.i"
 	@echo "... Number/NumberTest.s"
+	@echo "... Word/WordTest.o"
+	@echo "... Word/WordTest.i"
+	@echo "... Word/WordTest.s"
 	@echo "... __/__/main.o"
 	@echo "... __/__/main.i"
 	@echo "... __/__/main.s"

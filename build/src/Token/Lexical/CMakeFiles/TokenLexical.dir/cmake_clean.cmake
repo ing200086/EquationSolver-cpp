@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/TokenLexical.dir/Word.cpp.o"
   "CMakeFiles/TokenLexical.dir/Number.cpp.o"
   "CMakeFiles/TokenLexical.dir/Base.cpp.o"
   "libTokenLexical.pdb"

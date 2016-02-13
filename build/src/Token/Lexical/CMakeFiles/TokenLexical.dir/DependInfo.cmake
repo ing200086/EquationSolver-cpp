@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/daniel/Workspace/EquationSolver-cpp/src/Token/Lexical/Base.cpp" "/home/daniel/Workspace/EquationSolver-cpp/build/src/Token/Lexical/CMakeFiles/TokenLexical.dir/Base.cpp.o"
   "/home/daniel/Workspace/EquationSolver-cpp/src/Token/Lexical/Number.cpp" "/home/daniel/Workspace/EquationSolver-cpp/build/src/Token/Lexical/CMakeFiles/TokenLexical.dir/Number.cpp.o"
+  "/home/daniel/Workspace/EquationSolver-cpp/src/Token/Lexical/Word.cpp" "/home/daniel/Workspace/EquationSolver-cpp/build/src/Token/Lexical/CMakeFiles/TokenLexical.dir/Word.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

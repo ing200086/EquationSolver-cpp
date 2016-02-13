@@ -173,6 +173,30 @@ Number.cpp.s:
 	cd /home/daniel/Workspace/EquationSolver-cpp/build && $(MAKE) -f src/Token/Lexical/CMakeFiles/TokenLexical.dir/build.make src/Token/Lexical/CMakeFiles/TokenLexical.dir/Number.cpp.s
 .PHONY : Number.cpp.s
 
+Word.o: Word.cpp.o
+.PHONY : Word.o
+
+# target to build an object file
+Word.cpp.o:
+	cd /home/daniel/Workspace/EquationSolver-cpp/build && $(MAKE) -f src/Token/Lexical/CMakeFiles/TokenLexical.dir/build.make src/Token/Lexical/CMakeFiles/TokenLexical.dir/Word.cpp.o
+.PHONY : Word.cpp.o
+
+Word.i: Word.cpp.i
+.PHONY : Word.i
+
+# target to preprocess a source file
+Word.cpp.i:
+	cd /home/daniel/Workspace/EquationSolver-cpp/build && $(MAKE) -f src/Token/Lexical/CMakeFiles/TokenLexical.dir/build.make src/Token/Lexical/CMakeFiles/TokenLexical.dir/Word.cpp.i
+.PHONY : Word.cpp.i
+
+Word.s: Word.cpp.s
+.PHONY : Word.s
+
+# target to generate assembly for a file
+Word.cpp.s:
+	cd /home/daniel/Workspace/EquationSolver-cpp/build && $(MAKE) -f src/Token/Lexical/CMakeFiles/TokenLexical.dir/build.make src/Token/Lexical/CMakeFiles/TokenLexical.dir/Word.cpp.s
+.PHONY : Word.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -189,6 +213,9 @@ help:
 	@echo "... Number.o"
 	@echo "... Number.i"
 	@echo "... Number.s"
+	@echo "... Word.o"
+	@echo "... Word.i"
+	@echo "... Word.s"
 .PHONY : help
 
 

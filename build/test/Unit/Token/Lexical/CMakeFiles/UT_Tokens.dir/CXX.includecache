@@ -18,6 +18,10 @@ string
 Base.h
 ../src/Token/Lexical/include/Base.h
 
+../src/Token/Lexical/include/Word.h
+Base.h
+../src/Token/Lexical/include/Base.h
+
 /home/daniel/Workspace/EquationSolver-cpp/test/Unit/Token/Lexical/Number/NumberTest.cpp
 NumberTest.h
 /home/daniel/Workspace/EquationSolver-cpp/test/Unit/Token/Lexical/Number/NumberTest.h
@@ -27,6 +31,18 @@ Number.h
 /home/daniel/Workspace/EquationSolver-cpp/test/Unit/Token/Lexical/Number/Number.h
 gmock/gmock.h
 /home/daniel/Workspace/EquationSolver-cpp/test/Unit/Token/Lexical/Number/gmock/gmock.h
+memory
+-
+
+/home/daniel/Workspace/EquationSolver-cpp/test/Unit/Token/Lexical/Word/WordTest.cpp
+WordTest.h
+/home/daniel/Workspace/EquationSolver-cpp/test/Unit/Token/Lexical/Word/WordTest.h
+
+/home/daniel/Workspace/EquationSolver-cpp/test/Unit/Token/Lexical/Word/WordTest.h
+Word.h
+/home/daniel/Workspace/EquationSolver-cpp/test/Unit/Token/Lexical/Word/Word.h
+gmock/gmock.h
+/home/daniel/Workspace/EquationSolver-cpp/test/Unit/Token/Lexical/Word/gmock/gmock.h
 memory
 -
 

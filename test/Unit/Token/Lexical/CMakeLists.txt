@@ -7,7 +7,7 @@ project (UT_Tokens C CXX)
 
 file(GLOB_RECURSE SRCS ../../../main.cpp
 		${PROJECT_SOURCE_DIR}/Number/*.cpp ${PROJECT_SOURCE_DIR}/Number/*.h
-		# ${PROJECT_SOURCE_DIR}/Word/*.cpp ${PROJECT_SOURCE_DIR}/Word/*.h
+		${PROJECT_SOURCE_DIR}/Word/*.cpp ${PROJECT_SOURCE_DIR}/Word/*.h
 		)
 
 ADD_EXECUTABLE(${PROJECT_NAME} ${SRCS})
