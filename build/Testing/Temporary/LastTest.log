@@ -1,10 +1,10 @@
-Start testing: Feb 12 18:52 CST
+Start testing: Feb 12 19:04 CST
 ----------------------------------------------------------
 1/1 Testing: UT_Tokens
 1/1 Test: UT_Tokens
 Command: "/home/daniel/Workspace/EquationSolver-cpp/build/test/Unit/Token/Lexical/UT_Tokens"
 Directory: /home/daniel/Workspace/EquationSolver-cpp/build/test/Unit/Token/Lexical
-"UT_Tokens" start time: Feb 12 18:52 CST
+"UT_Tokens" start time: Feb 12 19:04 CST
 Output:
 ----------------------------------------------------------
 [==========] Running 41 tests from 3 test cases.
@@ -85,7 +85,7 @@ Output:
 [       OK ] Alphas/TestNonIntegers.AreAccepted/24 (0 ms)
 [ RUN      ] Alphas/TestNonIntegers.AreAccepted/25
 [       OK ] Alphas/TestNonIntegers.AreAccepted/25 (0 ms)
-[----------] 26 tests from Alphas/TestNonIntegers (1 ms total)
+[----------] 26 tests from Alphas/TestNonIntegers (0 ms total)
 
 [----------] 5 tests from Symbols/TestNonIntegers
 [ RUN      ] Symbols/TestNonIntegers.AreAccepted/0
@@ -98,7 +98,7 @@ Output:
 [       OK ] Symbols/TestNonIntegers.AreAccepted/3 (0 ms)
 [ RUN      ] Symbols/TestNonIntegers.AreAccepted/4
 [       OK ] Symbols/TestNonIntegers.AreAccepted/4 (0 ms)
-[----------] 5 tests from Symbols/TestNonIntegers (0 ms total)
+[----------] 5 tests from Symbols/TestNonIntegers (1 ms total)
 
 [----------] Global test environment tear-down
 [==========] 41 tests from 3 test cases ran. (1 ms total)
@@ -107,8 +107,8 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"UT_Tokens" end time: Feb 12 18:52 CST
+"UT_Tokens" end time: Feb 12 19:04 CST
 "UT_Tokens" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Feb 12 18:52 CST
+End testing: Feb 12 19:04 CST
