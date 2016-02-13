@@ -59,22 +59,16 @@ CMAKE_BINARY_DIR = /home/daniel/Workspace/EquationSolver-cpp/build
 test/all: test/CMakeFiles/gmock.dir/all
 test/all: test/CMakeFiles/gtest.dir/all
 test/all: test/Unit/all
-test/all: test/Integration/all
-test/all: test/Acceptance/all
 .PHONY : test/all
 
 # Convenience name for "clean" pass in the directory.
 test/clean: test/CMakeFiles/gmock.dir/clean
 test/clean: test/CMakeFiles/gtest.dir/clean
 test/clean: test/Unit/clean
-test/clean: test/Integration/clean
-test/clean: test/Acceptance/clean
 .PHONY : test/clean
 
 # Convenience name for "preinstall" pass in the directory.
 test/preinstall: test/Unit/preinstall
-test/preinstall: test/Integration/preinstall
-test/preinstall: test/Acceptance/preinstall
 .PHONY : test/preinstall
 
 #=============================================================================
@@ -84,7 +78,7 @@ test/preinstall: test/Acceptance/preinstall
 test/CMakeFiles/gmock.dir/all:
 	$(MAKE) -f test/CMakeFiles/gmock.dir/build.make test/CMakeFiles/gmock.dir/depend
 	$(MAKE) -f test/CMakeFiles/gmock.dir/build.make test/CMakeFiles/gmock.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/daniel/Workspace/EquationSolver-cpp/build/CMakeFiles  3 4 5 6 7 8 9 10
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/daniel/Workspace/EquationSolver-cpp/build/CMakeFiles  5 6 7 8 9 10 11 12
 	@echo "Built target gmock"
 .PHONY : test/CMakeFiles/gmock.dir/all
 
@@ -119,7 +113,7 @@ clean: test/CMakeFiles/gmock.dir/clean
 test/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f test/CMakeFiles/gtest.dir/build.make test/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f test/CMakeFiles/gtest.dir/build.make test/CMakeFiles/gtest.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/daniel/Workspace/EquationSolver-cpp/build/CMakeFiles  11 12 13 14 15 16 17 18
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/daniel/Workspace/EquationSolver-cpp/build/CMakeFiles  13 14 15 16 17 18 19 20
 	@echo "Built target gtest"
 .PHONY : test/CMakeFiles/gtest.dir/all
 
@@ -151,176 +145,162 @@ clean: test/CMakeFiles/gtest.dir/clean
 # Directory level rules for directory test/Unit
 
 # Convenience name for "all" pass in the directory.
-test/Unit/all: test/Unit/Tokens/all
+test/Unit/all: test/Unit/Token/all
 .PHONY : test/Unit/all
 
 # Convenience name for "clean" pass in the directory.
-test/Unit/clean: test/Unit/Tokens/clean
+test/Unit/clean: test/Unit/Token/clean
 .PHONY : test/Unit/clean
 
 # Convenience name for "preinstall" pass in the directory.
-test/Unit/preinstall: test/Unit/Tokens/preinstall
+test/Unit/preinstall: test/Unit/Token/preinstall
 .PHONY : test/Unit/preinstall
 
 #=============================================================================
-# Directory level rules for directory test/Unit/Tokens
+# Directory level rules for directory test/Unit/Token
 
 # Convenience name for "all" pass in the directory.
-test/Unit/Tokens/all: test/Unit/Tokens/Number/all
-.PHONY : test/Unit/Tokens/all
+test/Unit/Token/all: test/Unit/Token/Lexical/all
+.PHONY : test/Unit/Token/all
 
 # Convenience name for "clean" pass in the directory.
-test/Unit/Tokens/clean: test/Unit/Tokens/Number/clean
-.PHONY : test/Unit/Tokens/clean
+test/Unit/Token/clean: test/Unit/Token/Lexical/clean
+.PHONY : test/Unit/Token/clean
 
 # Convenience name for "preinstall" pass in the directory.
-test/Unit/Tokens/preinstall: test/Unit/Tokens/Number/preinstall
-.PHONY : test/Unit/Tokens/preinstall
+test/Unit/Token/preinstall: test/Unit/Token/Lexical/preinstall
+.PHONY : test/Unit/Token/preinstall
 
 #=============================================================================
-# Directory level rules for directory test/Unit/Tokens/Number
+# Directory level rules for directory test/Unit/Token/Lexical
 
 # Convenience name for "all" pass in the directory.
-test/Unit/Tokens/Number/all: test/Unit/Tokens/Number/CMakeFiles/UT_Tokens_Number.dir/all
-.PHONY : test/Unit/Tokens/Number/all
+test/Unit/Token/Lexical/all: test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/all
+.PHONY : test/Unit/Token/Lexical/all
 
 # Convenience name for "clean" pass in the directory.
-test/Unit/Tokens/Number/clean: test/Unit/Tokens/Number/CMakeFiles/UT_Tokens_Number.dir/clean
-.PHONY : test/Unit/Tokens/Number/clean
+test/Unit/Token/Lexical/clean: test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/clean
+.PHONY : test/Unit/Token/Lexical/clean
 
 # Convenience name for "preinstall" pass in the directory.
-test/Unit/Tokens/Number/preinstall:
-.PHONY : test/Unit/Tokens/Number/preinstall
+test/Unit/Token/Lexical/preinstall:
+.PHONY : test/Unit/Token/Lexical/preinstall
 
 #=============================================================================
-# Target rules for target test/Unit/Tokens/Number/CMakeFiles/UT_Tokens_Number.dir
+# Target rules for target test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir
 
 # All Build rule for target.
-test/Unit/Tokens/Number/CMakeFiles/UT_Tokens_Number.dir/all: test/CMakeFiles/gtest.dir/all
-test/Unit/Tokens/Number/CMakeFiles/UT_Tokens_Number.dir/all: test/CMakeFiles/gmock.dir/all
-	$(MAKE) -f test/Unit/Tokens/Number/CMakeFiles/UT_Tokens_Number.dir/build.make test/Unit/Tokens/Number/CMakeFiles/UT_Tokens_Number.dir/depend
-	$(MAKE) -f test/Unit/Tokens/Number/CMakeFiles/UT_Tokens_Number.dir/build.make test/Unit/Tokens/Number/CMakeFiles/UT_Tokens_Number.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/daniel/Workspace/EquationSolver-cpp/build/CMakeFiles  1 2
-	@echo "Built target UT_Tokens_Number"
-.PHONY : test/Unit/Tokens/Number/CMakeFiles/UT_Tokens_Number.dir/all
+test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/all: test/CMakeFiles/gtest.dir/all
+test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/all: test/CMakeFiles/gmock.dir/all
+test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/all: src/Token/Lexical/CMakeFiles/TokenLexical.dir/all
+	$(MAKE) -f test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/build.make test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/depend
+	$(MAKE) -f test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/build.make test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/daniel/Workspace/EquationSolver-cpp/build/CMakeFiles  3 4
+	@echo "Built target UT_Tokens"
+.PHONY : test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/all
 
 # Include target in all.
-all: test/Unit/Tokens/Number/CMakeFiles/UT_Tokens_Number.dir/all
+all: test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-test/Unit/Tokens/Number/CMakeFiles/UT_Tokens_Number.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/Workspace/EquationSolver-cpp/build/CMakeFiles 18
-	$(MAKE) -f CMakeFiles/Makefile2 test/Unit/Tokens/Number/CMakeFiles/UT_Tokens_Number.dir/all
+test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/Workspace/EquationSolver-cpp/build/CMakeFiles 20
+	$(MAKE) -f CMakeFiles/Makefile2 test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/Workspace/EquationSolver-cpp/build/CMakeFiles 0
-.PHONY : test/Unit/Tokens/Number/CMakeFiles/UT_Tokens_Number.dir/rule
+.PHONY : test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/rule
 
 # Convenience name for target.
-UT_Tokens_Number: test/Unit/Tokens/Number/CMakeFiles/UT_Tokens_Number.dir/rule
-.PHONY : UT_Tokens_Number
+UT_Tokens: test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/rule
+.PHONY : UT_Tokens
 
 # clean rule for target.
-test/Unit/Tokens/Number/CMakeFiles/UT_Tokens_Number.dir/clean:
-	$(MAKE) -f test/Unit/Tokens/Number/CMakeFiles/UT_Tokens_Number.dir/build.make test/Unit/Tokens/Number/CMakeFiles/UT_Tokens_Number.dir/clean
-.PHONY : test/Unit/Tokens/Number/CMakeFiles/UT_Tokens_Number.dir/clean
+test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/clean:
+	$(MAKE) -f test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/build.make test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/clean
+.PHONY : test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/clean
 
 # clean rule for target.
-clean: test/Unit/Tokens/Number/CMakeFiles/UT_Tokens_Number.dir/clean
+clean: test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/clean
 .PHONY : clean
-
-#=============================================================================
-# Directory level rules for directory test/Integration
-
-# Convenience name for "all" pass in the directory.
-test/Integration/all:
-.PHONY : test/Integration/all
-
-# Convenience name for "clean" pass in the directory.
-test/Integration/clean:
-.PHONY : test/Integration/clean
-
-# Convenience name for "preinstall" pass in the directory.
-test/Integration/preinstall:
-.PHONY : test/Integration/preinstall
-
-#=============================================================================
-# Directory level rules for directory test/Acceptance
-
-# Convenience name for "all" pass in the directory.
-test/Acceptance/all:
-.PHONY : test/Acceptance/all
-
-# Convenience name for "clean" pass in the directory.
-test/Acceptance/clean:
-.PHONY : test/Acceptance/clean
-
-# Convenience name for "preinstall" pass in the directory.
-test/Acceptance/preinstall:
-.PHONY : test/Acceptance/preinstall
 
 #=============================================================================
 # Directory level rules for directory src
 
 # Convenience name for "all" pass in the directory.
-src/all: src/MathTokenizer/all
+src/all: src/Token/all
 .PHONY : src/all
 
 # Convenience name for "clean" pass in the directory.
-src/clean: src/MathTokenizer/clean
+src/clean: src/Token/clean
 .PHONY : src/clean
 
 # Convenience name for "preinstall" pass in the directory.
-src/preinstall: src/MathTokenizer/preinstall
+src/preinstall: src/Token/preinstall
 .PHONY : src/preinstall
 
 #=============================================================================
-# Directory level rules for directory src/MathTokenizer
+# Directory level rules for directory src/Token
 
 # Convenience name for "all" pass in the directory.
-src/MathTokenizer/all: src/MathTokenizer/CMakeFiles/libMathTokenizer.dir/all
-.PHONY : src/MathTokenizer/all
+src/Token/all: src/Token/Lexical/all
+.PHONY : src/Token/all
 
 # Convenience name for "clean" pass in the directory.
-src/MathTokenizer/clean: src/MathTokenizer/CMakeFiles/libMathTokenizer.dir/clean
-.PHONY : src/MathTokenizer/clean
+src/Token/clean: src/Token/Lexical/clean
+.PHONY : src/Token/clean
 
 # Convenience name for "preinstall" pass in the directory.
-src/MathTokenizer/preinstall:
-.PHONY : src/MathTokenizer/preinstall
+src/Token/preinstall: src/Token/Lexical/preinstall
+.PHONY : src/Token/preinstall
 
 #=============================================================================
-# Target rules for target src/MathTokenizer/CMakeFiles/libMathTokenizer.dir
+# Directory level rules for directory src/Token/Lexical
+
+# Convenience name for "all" pass in the directory.
+src/Token/Lexical/all: src/Token/Lexical/CMakeFiles/TokenLexical.dir/all
+.PHONY : src/Token/Lexical/all
+
+# Convenience name for "clean" pass in the directory.
+src/Token/Lexical/clean: src/Token/Lexical/CMakeFiles/TokenLexical.dir/clean
+.PHONY : src/Token/Lexical/clean
+
+# Convenience name for "preinstall" pass in the directory.
+src/Token/Lexical/preinstall:
+.PHONY : src/Token/Lexical/preinstall
+
+#=============================================================================
+# Target rules for target src/Token/Lexical/CMakeFiles/TokenLexical.dir
 
 # All Build rule for target.
-src/MathTokenizer/CMakeFiles/libMathTokenizer.dir/all:
-	$(MAKE) -f src/MathTokenizer/CMakeFiles/libMathTokenizer.dir/build.make src/MathTokenizer/CMakeFiles/libMathTokenizer.dir/depend
-	$(MAKE) -f src/MathTokenizer/CMakeFiles/libMathTokenizer.dir/build.make src/MathTokenizer/CMakeFiles/libMathTokenizer.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/daniel/Workspace/EquationSolver-cpp/build/CMakeFiles 
-	@echo "Built target libMathTokenizer"
-.PHONY : src/MathTokenizer/CMakeFiles/libMathTokenizer.dir/all
+src/Token/Lexical/CMakeFiles/TokenLexical.dir/all:
+	$(MAKE) -f src/Token/Lexical/CMakeFiles/TokenLexical.dir/build.make src/Token/Lexical/CMakeFiles/TokenLexical.dir/depend
+	$(MAKE) -f src/Token/Lexical/CMakeFiles/TokenLexical.dir/build.make src/Token/Lexical/CMakeFiles/TokenLexical.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/daniel/Workspace/EquationSolver-cpp/build/CMakeFiles  1 2
+	@echo "Built target TokenLexical"
+.PHONY : src/Token/Lexical/CMakeFiles/TokenLexical.dir/all
 
 # Include target in all.
-all: src/MathTokenizer/CMakeFiles/libMathTokenizer.dir/all
+all: src/Token/Lexical/CMakeFiles/TokenLexical.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-src/MathTokenizer/CMakeFiles/libMathTokenizer.dir/rule: cmake_check_build_system
+src/Token/Lexical/CMakeFiles/TokenLexical.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/Workspace/EquationSolver-cpp/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 src/Token/Lexical/CMakeFiles/TokenLexical.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/Workspace/EquationSolver-cpp/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 src/MathTokenizer/CMakeFiles/libMathTokenizer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/Workspace/EquationSolver-cpp/build/CMakeFiles 0
-.PHONY : src/MathTokenizer/CMakeFiles/libMathTokenizer.dir/rule
+.PHONY : src/Token/Lexical/CMakeFiles/TokenLexical.dir/rule
 
 # Convenience name for target.
-libMathTokenizer: src/MathTokenizer/CMakeFiles/libMathTokenizer.dir/rule
-.PHONY : libMathTokenizer
+TokenLexical: src/Token/Lexical/CMakeFiles/TokenLexical.dir/rule
+.PHONY : TokenLexical
 
 # clean rule for target.
-src/MathTokenizer/CMakeFiles/libMathTokenizer.dir/clean:
-	$(MAKE) -f src/MathTokenizer/CMakeFiles/libMathTokenizer.dir/build.make src/MathTokenizer/CMakeFiles/libMathTokenizer.dir/clean
-.PHONY : src/MathTokenizer/CMakeFiles/libMathTokenizer.dir/clean
+src/Token/Lexical/CMakeFiles/TokenLexical.dir/clean:
+	$(MAKE) -f src/Token/Lexical/CMakeFiles/TokenLexical.dir/build.make src/Token/Lexical/CMakeFiles/TokenLexical.dir/clean
+.PHONY : src/Token/Lexical/CMakeFiles/TokenLexical.dir/clean
 
 # clean rule for target.
-clean: src/MathTokenizer/CMakeFiles/libMathTokenizer.dir/clean
+clean: src/Token/Lexical/CMakeFiles/TokenLexical.dir/clean
 .PHONY : clean
 
 #=============================================================================

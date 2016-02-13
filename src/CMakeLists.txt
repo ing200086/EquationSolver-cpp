@@ -1,3 +1,4 @@
 cmake_minimum_required(VERSION 3.1.0)
 
-add_subdirectory(MathTokenizer)
+add_subdirectory(Token)
+# add_subdirectory(MathTokenizer)

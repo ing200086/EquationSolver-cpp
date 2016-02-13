@@ -1,2 +1,0 @@
-/usr/bin/ar cq liblibMathTokenizer.a  
-/usr/bin/ranlib liblibMathTokenizer.a

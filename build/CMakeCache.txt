@@ -175,25 +175,25 @@ EquationSolver_BINARY_DIR:STATIC=/home/daniel/Workspace/EquationSolver-cpp/build
 EquationSolver_SOURCE_DIR:STATIC=/home/daniel/Workspace/EquationSolver-cpp
 
 //Value Computed by CMake
-UT_MathTokenizer_BINARY_DIR:STATIC=/home/daniel/Workspace/EquationSolver-cpp/build/test/Unit/MathTokenizer
-
-//Value Computed by CMake
-UT_MathTokenizer_SOURCE_DIR:STATIC=/home/daniel/Workspace/EquationSolver-cpp/test/Unit/MathTokenizer
-
-//Value Computed by CMake
-UT_Tokens_Number_BINARY_DIR:STATIC=/home/daniel/Workspace/EquationSolver-cpp/build/test/Unit/Tokens/Number
-
-//Value Computed by CMake
-UT_Tokens_Number_SOURCE_DIR:STATIC=/home/daniel/Workspace/EquationSolver-cpp/test/Unit/Tokens/Number
-
-//Value Computed by CMake
-libMathTokenizer_BINARY_DIR:STATIC=/home/daniel/Workspace/EquationSolver-cpp/build/src/MathTokenizer
+TokenLexical_BINARY_DIR:STATIC=/home/daniel/Workspace/EquationSolver-cpp/build/src/Token/Lexical
 
 //Dependencies for target
-libMathTokenizer_LIB_DEPENDS:STATIC=
+TokenLexical_LIB_DEPENDS:STATIC=
 
 //Value Computed by CMake
-libMathTokenizer_SOURCE_DIR:STATIC=/home/daniel/Workspace/EquationSolver-cpp/src/MathTokenizer
+TokenLexical_SOURCE_DIR:STATIC=/home/daniel/Workspace/EquationSolver-cpp/src/Token/Lexical
+
+//Value Computed by CMake
+UT_Tokens_BINARY_DIR:STATIC=/home/daniel/Workspace/EquationSolver-cpp/build/test/Unit/Token/Lexical
+
+//Value Computed by CMake
+UT_Tokens_Number_BINARY_DIR:STATIC=/home/daniel/Workspace/EquationSolver-cpp/build/test/Unit/Token/Lexical/Number
+
+//Value Computed by CMake
+UT_Tokens_Number_SOURCE_DIR:STATIC=/home/daniel/Workspace/EquationSolver-cpp/test/Unit/Token/Lexical/Number
+
+//Value Computed by CMake
+UT_Tokens_SOURCE_DIR:STATIC=/home/daniel/Workspace/EquationSolver-cpp/test/Unit/Token/Lexical
 
 
 ########################
@@ -294,7 +294,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=9
+CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=8
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

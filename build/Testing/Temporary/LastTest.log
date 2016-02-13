@@ -1,30 +1,114 @@
-Start testing: Feb 12 07:29 CST
+Start testing: Feb 12 18:52 CST
 ----------------------------------------------------------
-1/1 Testing: UT_Tokens_Number
-1/1 Test: UT_Tokens_Number
-Command: "/home/daniel/Workspace/EquationSolver-cpp/build/test/Unit/Tokens/Number/UT_Tokens_Number"
-Directory: /home/daniel/Workspace/EquationSolver-cpp/build/test/Unit/Tokens/Number
-"UT_Tokens_Number" start time: Feb 12 07:29 CST
+1/1 Testing: UT_Tokens
+1/1 Test: UT_Tokens
+Command: "/home/daniel/Workspace/EquationSolver-cpp/build/test/Unit/Token/Lexical/UT_Tokens"
+Directory: /home/daniel/Workspace/EquationSolver-cpp/build/test/Unit/Token/Lexical
+"UT_Tokens" start time: Feb 12 18:52 CST
 Output:
 ----------------------------------------------------------
-[==========] Running 2 tests from 1 test case.
+[==========] Running 41 tests from 3 test cases.
 [----------] Global test environment set-up.
-[----------] 2 tests from BulkTest/ValidIntegers
-[ RUN      ] BulkTest/ValidIntegers.GeneratesLotsOfSumsFromTwoNumbers/0
-[       OK ] BulkTest/ValidIntegers.GeneratesLotsOfSumsFromTwoNumbers/0 (0 ms)
-[ RUN      ] BulkTest/ValidIntegers.GeneratesLotsOfSumsFromTwoNumbers/1
-[       OK ] BulkTest/ValidIntegers.GeneratesLotsOfSumsFromTwoNumbers/1 (0 ms)
-[----------] 2 tests from BulkTest/ValidIntegers (0 ms total)
+[----------] 10 tests from ValidIntegers/TestValidIntegers
+[ RUN      ] ValidIntegers/TestValidIntegers.AreAccepted/0
+[       OK ] ValidIntegers/TestValidIntegers.AreAccepted/0 (0 ms)
+[ RUN      ] ValidIntegers/TestValidIntegers.AreAccepted/1
+[       OK ] ValidIntegers/TestValidIntegers.AreAccepted/1 (0 ms)
+[ RUN      ] ValidIntegers/TestValidIntegers.AreAccepted/2
+[       OK ] ValidIntegers/TestValidIntegers.AreAccepted/2 (0 ms)
+[ RUN      ] ValidIntegers/TestValidIntegers.AreAccepted/3
+[       OK ] ValidIntegers/TestValidIntegers.AreAccepted/3 (0 ms)
+[ RUN      ] ValidIntegers/TestValidIntegers.AreAccepted/4
+[       OK ] ValidIntegers/TestValidIntegers.AreAccepted/4 (0 ms)
+[ RUN      ] ValidIntegers/TestValidIntegers.AreAccepted/5
+[       OK ] ValidIntegers/TestValidIntegers.AreAccepted/5 (0 ms)
+[ RUN      ] ValidIntegers/TestValidIntegers.AreAccepted/6
+[       OK ] ValidIntegers/TestValidIntegers.AreAccepted/6 (0 ms)
+[ RUN      ] ValidIntegers/TestValidIntegers.AreAccepted/7
+[       OK ] ValidIntegers/TestValidIntegers.AreAccepted/7 (0 ms)
+[ RUN      ] ValidIntegers/TestValidIntegers.AreAccepted/8
+[       OK ] ValidIntegers/TestValidIntegers.AreAccepted/8 (0 ms)
+[ RUN      ] ValidIntegers/TestValidIntegers.AreAccepted/9
+[       OK ] ValidIntegers/TestValidIntegers.AreAccepted/9 (0 ms)
+[----------] 10 tests from ValidIntegers/TestValidIntegers (0 ms total)
+
+[----------] 26 tests from Alphas/TestNonIntegers
+[ RUN      ] Alphas/TestNonIntegers.AreAccepted/0
+[       OK ] Alphas/TestNonIntegers.AreAccepted/0 (0 ms)
+[ RUN      ] Alphas/TestNonIntegers.AreAccepted/1
+[       OK ] Alphas/TestNonIntegers.AreAccepted/1 (0 ms)
+[ RUN      ] Alphas/TestNonIntegers.AreAccepted/2
+[       OK ] Alphas/TestNonIntegers.AreAccepted/2 (0 ms)
+[ RUN      ] Alphas/TestNonIntegers.AreAccepted/3
+[       OK ] Alphas/TestNonIntegers.AreAccepted/3 (0 ms)
+[ RUN      ] Alphas/TestNonIntegers.AreAccepted/4
+[       OK ] Alphas/TestNonIntegers.AreAccepted/4 (0 ms)
+[ RUN      ] Alphas/TestNonIntegers.AreAccepted/5
+[       OK ] Alphas/TestNonIntegers.AreAccepted/5 (0 ms)
+[ RUN      ] Alphas/TestNonIntegers.AreAccepted/6
+[       OK ] Alphas/TestNonIntegers.AreAccepted/6 (0 ms)
+[ RUN      ] Alphas/TestNonIntegers.AreAccepted/7
+[       OK ] Alphas/TestNonIntegers.AreAccepted/7 (0 ms)
+[ RUN      ] Alphas/TestNonIntegers.AreAccepted/8
+[       OK ] Alphas/TestNonIntegers.AreAccepted/8 (0 ms)
+[ RUN      ] Alphas/TestNonIntegers.AreAccepted/9
+[       OK ] Alphas/TestNonIntegers.AreAccepted/9 (0 ms)
+[ RUN      ] Alphas/TestNonIntegers.AreAccepted/10
+[       OK ] Alphas/TestNonIntegers.AreAccepted/10 (0 ms)
+[ RUN      ] Alphas/TestNonIntegers.AreAccepted/11
+[       OK ] Alphas/TestNonIntegers.AreAccepted/11 (0 ms)
+[ RUN      ] Alphas/TestNonIntegers.AreAccepted/12
+[       OK ] Alphas/TestNonIntegers.AreAccepted/12 (0 ms)
+[ RUN      ] Alphas/TestNonIntegers.AreAccepted/13
+[       OK ] Alphas/TestNonIntegers.AreAccepted/13 (0 ms)
+[ RUN      ] Alphas/TestNonIntegers.AreAccepted/14
+[       OK ] Alphas/TestNonIntegers.AreAccepted/14 (0 ms)
+[ RUN      ] Alphas/TestNonIntegers.AreAccepted/15
+[       OK ] Alphas/TestNonIntegers.AreAccepted/15 (0 ms)
+[ RUN      ] Alphas/TestNonIntegers.AreAccepted/16
+[       OK ] Alphas/TestNonIntegers.AreAccepted/16 (0 ms)
+[ RUN      ] Alphas/TestNonIntegers.AreAccepted/17
+[       OK ] Alphas/TestNonIntegers.AreAccepted/17 (0 ms)
+[ RUN      ] Alphas/TestNonIntegers.AreAccepted/18
+[       OK ] Alphas/TestNonIntegers.AreAccepted/18 (0 ms)
+[ RUN      ] Alphas/TestNonIntegers.AreAccepted/19
+[       OK ] Alphas/TestNonIntegers.AreAccepted/19 (0 ms)
+[ RUN      ] Alphas/TestNonIntegers.AreAccepted/20
+[       OK ] Alphas/TestNonIntegers.AreAccepted/20 (0 ms)
+[ RUN      ] Alphas/TestNonIntegers.AreAccepted/21
+[       OK ] Alphas/TestNonIntegers.AreAccepted/21 (0 ms)
+[ RUN      ] Alphas/TestNonIntegers.AreAccepted/22
+[       OK ] Alphas/TestNonIntegers.AreAccepted/22 (0 ms)
+[ RUN      ] Alphas/TestNonIntegers.AreAccepted/23
+[       OK ] Alphas/TestNonIntegers.AreAccepted/23 (0 ms)
+[ RUN      ] Alphas/TestNonIntegers.AreAccepted/24
+[       OK ] Alphas/TestNonIntegers.AreAccepted/24 (0 ms)
+[ RUN      ] Alphas/TestNonIntegers.AreAccepted/25
+[       OK ] Alphas/TestNonIntegers.AreAccepted/25 (0 ms)
+[----------] 26 tests from Alphas/TestNonIntegers (1 ms total)
+
+[----------] 5 tests from Symbols/TestNonIntegers
+[ RUN      ] Symbols/TestNonIntegers.AreAccepted/0
+[       OK ] Symbols/TestNonIntegers.AreAccepted/0 (0 ms)
+[ RUN      ] Symbols/TestNonIntegers.AreAccepted/1
+[       OK ] Symbols/TestNonIntegers.AreAccepted/1 (0 ms)
+[ RUN      ] Symbols/TestNonIntegers.AreAccepted/2
+[       OK ] Symbols/TestNonIntegers.AreAccepted/2 (0 ms)
+[ RUN      ] Symbols/TestNonIntegers.AreAccepted/3
+[       OK ] Symbols/TestNonIntegers.AreAccepted/3 (0 ms)
+[ RUN      ] Symbols/TestNonIntegers.AreAccepted/4
+[       OK ] Symbols/TestNonIntegers.AreAccepted/4 (0 ms)
+[----------] 5 tests from Symbols/TestNonIntegers (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 2 tests from 1 test case ran. (0 ms total)
-[  PASSED  ] 2 tests.
+[==========] 41 tests from 3 test cases ran. (1 ms total)
+[  PASSED  ] 41 tests.
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"UT_Tokens_Number" end time: Feb 12 07:29 CST
-"UT_Tokens_Number" time elapsed: 00:00:00
+"UT_Tokens" end time: Feb 12 18:52 CST
+"UT_Tokens" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Feb 12 07:29 CST
+End testing: Feb 12 18:52 CST

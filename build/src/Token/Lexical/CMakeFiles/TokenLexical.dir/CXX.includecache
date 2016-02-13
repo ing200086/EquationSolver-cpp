@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/Token/Lexical/include/Base.h
+IToken.h
+../src/Token/Lexical/include/IToken.h
+
+../src/Token/Lexical/include/IToken.h
+string
+-
+
+../src/Token/Lexical/include/Number.h
+Base.h
+../src/Token/Lexical/include/Base.h
+
+/home/daniel/Workspace/EquationSolver-cpp/src/Token/Lexical/Base.cpp
+Base.h
+/home/daniel/Workspace/EquationSolver-cpp/src/Token/Lexical/Base.h
+
+/home/daniel/Workspace/EquationSolver-cpp/src/Token/Lexical/Number.cpp
+Number.h
+/home/daniel/Workspace/EquationSolver-cpp/src/Token/Lexical/Number.h
+

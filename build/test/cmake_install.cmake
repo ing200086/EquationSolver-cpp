@@ -35,8 +35,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/daniel/Workspace/EquationSolver-cpp/build/test/Unit/cmake_install.cmake")
-  include("/home/daniel/Workspace/EquationSolver-cpp/build/test/Integration/cmake_install.cmake")
-  include("/home/daniel/Workspace/EquationSolver-cpp/build/test/Acceptance/cmake_install.cmake")
 
 endif()
 

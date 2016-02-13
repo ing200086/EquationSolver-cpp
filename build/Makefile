@@ -138,30 +138,30 @@ gtest/fast:
 .PHONY : gtest/fast
 
 #=============================================================================
-# Target rules for targets named UT_Tokens_Number
+# Target rules for targets named UT_Tokens
 
 # Build rule for target.
-UT_Tokens_Number: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 UT_Tokens_Number
-.PHONY : UT_Tokens_Number
+UT_Tokens: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 UT_Tokens
+.PHONY : UT_Tokens
 
 # fast build rule for target.
-UT_Tokens_Number/fast:
-	$(MAKE) -f test/Unit/Tokens/Number/CMakeFiles/UT_Tokens_Number.dir/build.make test/Unit/Tokens/Number/CMakeFiles/UT_Tokens_Number.dir/build
-.PHONY : UT_Tokens_Number/fast
+UT_Tokens/fast:
+	$(MAKE) -f test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/build.make test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/build
+.PHONY : UT_Tokens/fast
 
 #=============================================================================
-# Target rules for targets named libMathTokenizer
+# Target rules for targets named TokenLexical
 
 # Build rule for target.
-libMathTokenizer: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 libMathTokenizer
-.PHONY : libMathTokenizer
+TokenLexical: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TokenLexical
+.PHONY : TokenLexical
 
 # fast build rule for target.
-libMathTokenizer/fast:
-	$(MAKE) -f src/MathTokenizer/CMakeFiles/libMathTokenizer.dir/build.make src/MathTokenizer/CMakeFiles/libMathTokenizer.dir/build
-.PHONY : libMathTokenizer/fast
+TokenLexical/fast:
+	$(MAKE) -f src/Token/Lexical/CMakeFiles/TokenLexical.dir/build.make src/Token/Lexical/CMakeFiles/TokenLexical.dir/build
+.PHONY : TokenLexical/fast
 
 # Help Target
 help:
@@ -174,8 +174,8 @@ help:
 	@echo "... test"
 	@echo "... gtest"
 	@echo "... gmock"
-	@echo "... UT_Tokens_Number"
-	@echo "... libMathTokenizer"
+	@echo "... UT_Tokens"
+	@echo "... TokenLexical"
 .PHONY : help
 
 
