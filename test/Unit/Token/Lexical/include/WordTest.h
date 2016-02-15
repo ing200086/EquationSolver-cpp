@@ -5,7 +5,7 @@
 #include "Word.h"
     using ::Token::Lexical::Word;
 
-class WordTester: public TokenCharTester {
+class WordTester: public TokenTester<char> {
 public:
     virtual void SetUp() {
         _token.reset(new Word());

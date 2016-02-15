@@ -15,12 +15,8 @@
 #include <string>
     using ::std::string;
 
-class TokenCharTester: public TestWithParam<char> {
-protected:
-    unique_ptr<IToken> _token;
-};
-
-class TokenStringTester: public TestWithParam<string> {
+template <class T>
+class TokenTester: public TestWithParam<T> {
 protected:
     unique_ptr<IToken> _token;
 };
