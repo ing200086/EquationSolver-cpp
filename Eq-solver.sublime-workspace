@@ -1,0 +1,407 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"inst",
+				"instanceMap"
+			],
+			[
+				"_",
+				"_Serivce"
+			],
+			[
+				"I",
+				"IGraphicsDriver"
+			],
+			[
+				"_P",
+				"_GraphicsDriverRegistrationSerivce"
+			],
+			[
+				"Ker",
+				"KernelLoadedWithMockPlugin"
+			],
+			[
+				"_reg",
+				"_regService"
+			],
+			[
+				"E",
+				"EXPECT_CALL"
+			],
+			[
+				"IP",
+				"IPluginToRegister"
+			],
+			[
+				"A",
+				"ASSERT_TRUE"
+			],
+			[
+				"TEST",
+				"TEST_F"
+			],
+			[
+				"_pluginNot",
+				"_pluginNotLoadedID"
+			],
+			[
+				"_plu",
+				"_pluginID"
+			],
+			[
+				"_other",
+				"_otherPluginID"
+			],
+			[
+				"_Pl",
+				"_pluginID"
+			],
+			[
+				"Te",
+				"TEST_F"
+			],
+			[
+				"PluginRegistrationServ",
+				"PluginRegistrationServiceTestMocks	(PluginRegistrationServiceTest.cpp)"
+			],
+			[
+				"Plu",
+				"PluginRegistrationService"
+			],
+			[
+				"_plug",
+				"_plugin"
+			],
+			[
+				"Set",
+				"SetUpMockPlugin"
+			],
+			[
+				"PluginRegistrationSer",
+				"PluginRegistrationServiceWithRegisteredPlugin"
+			],
+			[
+				"Plugin",
+				"PluginRegistrarProviderTest	(PluginRegistrarProviderTest.cpp)"
+			],
+			[
+				"M",
+				"MockPluginToRegister"
+			],
+			[
+				"_plugin",
+				"_pluginID"
+			],
+			[
+				"Plugi",
+				"PluginRegistrationServiceWill"
+			],
+			[
+				"IPl",
+				"IPluginRegistrarService"
+			],
+			[
+				"_plugi",
+				"_pluginKernel"
+			],
+			[
+				"IPlu",
+				"IPluginForKernel"
+			],
+			[
+				"Plug",
+				"PluginRegistrarProvider"
+			],
+			[
+				"Mock",
+				"MockSharedLibraryLoader"
+			],
+			[
+				"Pul",
+				"PluginInstanceConstructedWithNameAndMockSharedLibLoader"
+			],
+			[
+				"plugin",
+				"pluginName"
+			],
+			[
+				"plu",
+				"pluginName"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 138.0,
+		"selected_items":
+		[
+			[
+				"#",
+				"Snippet: #ifndef … #define … #endif"
+			],
+			[
+				"#if	",
+				"Snippet: #ifndef … #define … #endif"
+			],
+			[
+				"#ifn",
+				"Snippet: #ifndef … #define … #endif"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"#IFN",
+				"Snippet: #ifndef … #define … #endif"
+			],
+			[
+				"#ifn	",
+				"Snippet: #ifndef … #define … #endif"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Instal",
+				"Package Control: Install Package"
+			],
+			[
+				"#	",
+				"Snippet: #ifndef … #define … #endif"
+			],
+			[
+				"termin",
+				"Terminal: Open in project folder"
+			],
+			[
+				"git",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/PluginService/PluginRegistrationServiceTest.cpp",
+		"/home/daniel/Workspace/PluginArch/test/AcceptanceTests/UserCase01/UserCase01.cpp",
+		"/home/daniel/Workspace/PluginArch/test/CMakeLists.txt",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/OpenGLGraphicsDriver/OpenGLGraphicsDriver.cpp",
+		"/home/daniel/Workspace/PluginArch/src/CMakeLists.txt",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/CMakeLists.txt",
+		"/home/daniel/Workspace/PluginArch/src/PluginService/PluginRegistrationService.h",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/PluginService/PluginRegistrationServiceTestMocks.h",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/PluginService/PluginRegistrationServiceTest.h",
+		"/home/daniel/Workspace/PluginArch/test/IntegrationTests/Plugin/Plugin.cpp",
+		"/home/daniel/Workspace/PluginArch/test/IntegrationTests/Plugin/CMakeLists.txt",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/OpenGLGraphicsDriver/CMakeLists.txt",
+		"/home/daniel/Workspace/PluginArch/test/IntegrationTests/PluginRegistrationService/PluginRegistrationService.cpp",
+		"/home/daniel/Workspace/PluginArch/test/IntegrationTests/CMakeLists.txt",
+		"/home/daniel/Workspace/PluginArch/test/IntegrationTests/PluginRegistrationService/CMakeLists.txt",
+		"/home/daniel/Workspace/PluginArch/test/AcceptanceTests/UserCase01/CMakeLists.txt",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/Kernel/CMakeLists.txt",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/Plugin/CMakeLists.txt",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/PluginRegistrarProvider/CMakeLists.txt",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/PluginRegistrationService/CMakeLists.txt",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/SharedLibrary/CMakeLists.txt",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/KernelTest/KernelTest.h",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/KernelTest/KernelTestMocks.h",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/KernelTest/KernelTest.cpp",
+		"/home/daniel/Workspace/PluginArch/src/Kernel/Kernel.h",
+		"/home/daniel/Workspace/PluginArch/src/Kernel/IPluginRegistrarProvider.h",
+		"/home/daniel/Workspace/PluginArch/src/Kernel/Kernel.cpp",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/KernelTest/CMakeLists.txt",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/PluginRegistrarProviderTest/CMakeLists.txt",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/PluginRegistrationServiceTest/CMakeLists.txt",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/PluginTest/CMakeLists.txt",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/SharedLibraryTest/CMakeLists.txt",
+		"/home/daniel/Workspace/PluginArch/build/Testing/Temporary/LastTest.log",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/PluginRegistrationServiceTest/PluginRegistrationServiceTest.h",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/PluginRegistrationServiceTest/PluginRegistrationServiceTestMocks.h",
+		"/home/daniel/Workspace/PluginArch/src/PluginRegistrationService/PluginRegistrationService.h",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/PluginRegistrationServiceTest/PluginRegistrationServiceTest.cpp",
+		"/home/daniel/Workspace/PluginArch/src/PluginRegistrationService/IPluginToRegister.h",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/PluginRegistrationServiceTest/IPluginToRegister.h",
+		"/home/daniel/Workspace/PluginArch/src/PluginRegistrationService/CMakeLists.txt",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/PluginRegistrationServiceTest/PluginRegistrationService.h",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/PluginRegistrarProviderTest/PluginRegistrarProviderTest.cpp",
+		"/home/daniel/Workspace/PluginArch/build/Testing/Temporary/LastTestsFailed.log",
+		"/home/daniel/Workspace/PluginArch/src/Kernel/IPluginToRegister.h",
+		"/home/daniel/Workspace/PluginArch/src/Kernel/IPluginRegistrarService.h",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/PluginRegistrarProviderTest/PluginRegistrarProviderTest.h",
+		"/home/daniel/Workspace/PluginArch/src/PluginRegistrarProvider/PluginRegistrarProvider.h",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/PluginRegistrarProviderTest/PluginRegistrarProviderTestMocks.h",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/PluginRegistrationServiceTest/main.cpp",
+		"/home/daniel/Workspace/PluginArch/test/UnitTests/PluginTest/main.cpp",
+		"/home/daniel/Workspace/PluginArch/test/KernelTest/KernelTest.h",
+		"/home/daniel/Workspace/PluginArch/src/Kernel/CMakeLists.txt",
+		"/home/daniel/Workspace/PluginArch/test/KernelTest/KernelTestMocks.h",
+		"/home/daniel/Workspace/PluginArch/test/KernelTest/KernelTest.cpp",
+		"/home/daniel/Workspace/PluginArch/test/KernelTest/CMakeLists.txt",
+		"/home/daniel/Workspace/PluginArch/CMakeLists.txt",
+		"/home/daniel/Workspace/PluginArch/test/KernelTest/Kernel.h",
+		"/home/daniel/Workspace/PluginArch/src/PluginRegistrarProvider/CMakeLists.txt",
+		"/home/daniel/Workspace/PluginArch/test/PluginRegistrarProviderTest/CMakeLists.txt",
+		"/home/daniel/Workspace/PluginArch/test/PluginRegistrarProviderTest/PluginRegistrarProviderTest.h",
+		"/home/daniel/Workspace/PluginArch/test/PluginRegistrarProviderTest/PluginRegistrarProviderTestMocks.h",
+		"/home/daniel/Workspace/PluginArch/test/PluginRegistrarProviderTest/PluginRegistrarProviderTest.cpp",
+		"/home/daniel/Workspace/PluginArch/test/PluginRegistrarProvider/PluginRegistrarProviderTest.h",
+		"/home/daniel/Workspace/PluginArch/test/PluginRegistrarProvider/PluginRegistrarProviderTest.cpp",
+		"/home/daniel/Workspace/PluginArch/src/PluginRegistrarFactory/PluginRegistrarFactory.h",
+		"/home/daniel/Workspace/PluginArch/terminal.glue",
+		"/usr/share/applications/sublime-text2.desktop",
+		"/usr/share/applications/gksu.desktop",
+		"/usr/share/applications/sublime-text-2.desktop",
+		"/usr/share/applications/.desktop",
+		"/home/daniel/Workspace/PluginArch/test/PluginTest/Plugin.h",
+		"/home/daniel/Workspace/PluginArch/test/PluginTest/PluginTest.cpp",
+		"/home/daniel/Workspace/PluginArch/test/PluginTest/CMakeLists.txt",
+		"/usr/share/applications/.desktep",
+		"/home/daniel/Workspace/PluginArch/test/PluginTest/main.cpp",
+		"/home/daniel/Workspace/PluginArch/test/KernelTest/main.cpp",
+		"/home/daniel/Workspace/PluginArch/test/Kernel/KernelTest.h",
+		"/home/daniel/Workspace/PluginArch/test/Kernel/CMakeLists.txt",
+		"/home/daniel/.gitconfig"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"PluginRegistrationServiceWithRegisteredPlugin",
+			"MockPluginToRegister",
+			"__",
+			"(PluginRegistrationServiceWill",
+			"_reg",
+			"_reg,",
+			"forService",
+			"IProviderStorageService",
+			"IPluginRegistrarFactory",
+			"__",
+			"PluginRegistrarProviderConstructedEmpty",
+			"T(ConstructRegistrarProvider",
+			"Factory",
+			"FACTORY",
+			"rovider",
+			"Factory",
+			"FACTORY",
+			"MGenericPlugin",
+			"ockPlugin",
+			"MockPlugin",
+			"\"exPlugin\"",
+			"IPluginInstarceConstructed",
+			"Location",
+			"libLocation_SRCS"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 340.0,
+	"status_bar_visible": true
+}

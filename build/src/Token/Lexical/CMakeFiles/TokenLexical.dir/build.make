@@ -49,87 +49,87 @@ include src/Token/Lexical/CMakeFiles/TokenLexical.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/Token/Lexical/CMakeFiles/TokenLexical.dir/flags.make
 
-src/Token/Lexical/CMakeFiles/TokenLexical.dir/Word.cpp.o: src/Token/Lexical/CMakeFiles/TokenLexical.dir/flags.make
-src/Token/Lexical/CMakeFiles/TokenLexical.dir/Word.cpp.o: ../src/Token/Lexical/Word.cpp
+src/Token/Lexical/CMakeFiles/TokenLexical.dir/Base/Base.cpp.o: src/Token/Lexical/CMakeFiles/TokenLexical.dir/flags.make
+src/Token/Lexical/CMakeFiles/TokenLexical.dir/Base/Base.cpp.o: ../src/Token/Lexical/Base/Base.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/daniel/Workspace/EquationSolver-cpp/build/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/Token/Lexical/CMakeFiles/TokenLexical.dir/Word.cpp.o"
-	cd /home/daniel/Workspace/EquationSolver-cpp/build/src/Token/Lexical && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/TokenLexical.dir/Word.cpp.o -c /home/daniel/Workspace/EquationSolver-cpp/src/Token/Lexical/Word.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/Token/Lexical/CMakeFiles/TokenLexical.dir/Base/Base.cpp.o"
+	cd /home/daniel/Workspace/EquationSolver-cpp/build/src/Token/Lexical && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/TokenLexical.dir/Base/Base.cpp.o -c /home/daniel/Workspace/EquationSolver-cpp/src/Token/Lexical/Base/Base.cpp
 
-src/Token/Lexical/CMakeFiles/TokenLexical.dir/Word.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TokenLexical.dir/Word.cpp.i"
-	cd /home/daniel/Workspace/EquationSolver-cpp/build/src/Token/Lexical && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/daniel/Workspace/EquationSolver-cpp/src/Token/Lexical/Word.cpp > CMakeFiles/TokenLexical.dir/Word.cpp.i
+src/Token/Lexical/CMakeFiles/TokenLexical.dir/Base/Base.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TokenLexical.dir/Base/Base.cpp.i"
+	cd /home/daniel/Workspace/EquationSolver-cpp/build/src/Token/Lexical && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/daniel/Workspace/EquationSolver-cpp/src/Token/Lexical/Base/Base.cpp > CMakeFiles/TokenLexical.dir/Base/Base.cpp.i
 
-src/Token/Lexical/CMakeFiles/TokenLexical.dir/Word.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TokenLexical.dir/Word.cpp.s"
-	cd /home/daniel/Workspace/EquationSolver-cpp/build/src/Token/Lexical && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/daniel/Workspace/EquationSolver-cpp/src/Token/Lexical/Word.cpp -o CMakeFiles/TokenLexical.dir/Word.cpp.s
+src/Token/Lexical/CMakeFiles/TokenLexical.dir/Base/Base.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TokenLexical.dir/Base/Base.cpp.s"
+	cd /home/daniel/Workspace/EquationSolver-cpp/build/src/Token/Lexical && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/daniel/Workspace/EquationSolver-cpp/src/Token/Lexical/Base/Base.cpp -o CMakeFiles/TokenLexical.dir/Base/Base.cpp.s
 
-src/Token/Lexical/CMakeFiles/TokenLexical.dir/Word.cpp.o.requires:
-.PHONY : src/Token/Lexical/CMakeFiles/TokenLexical.dir/Word.cpp.o.requires
+src/Token/Lexical/CMakeFiles/TokenLexical.dir/Base/Base.cpp.o.requires:
+.PHONY : src/Token/Lexical/CMakeFiles/TokenLexical.dir/Base/Base.cpp.o.requires
 
-src/Token/Lexical/CMakeFiles/TokenLexical.dir/Word.cpp.o.provides: src/Token/Lexical/CMakeFiles/TokenLexical.dir/Word.cpp.o.requires
-	$(MAKE) -f src/Token/Lexical/CMakeFiles/TokenLexical.dir/build.make src/Token/Lexical/CMakeFiles/TokenLexical.dir/Word.cpp.o.provides.build
-.PHONY : src/Token/Lexical/CMakeFiles/TokenLexical.dir/Word.cpp.o.provides
+src/Token/Lexical/CMakeFiles/TokenLexical.dir/Base/Base.cpp.o.provides: src/Token/Lexical/CMakeFiles/TokenLexical.dir/Base/Base.cpp.o.requires
+	$(MAKE) -f src/Token/Lexical/CMakeFiles/TokenLexical.dir/build.make src/Token/Lexical/CMakeFiles/TokenLexical.dir/Base/Base.cpp.o.provides.build
+.PHONY : src/Token/Lexical/CMakeFiles/TokenLexical.dir/Base/Base.cpp.o.provides
 
-src/Token/Lexical/CMakeFiles/TokenLexical.dir/Word.cpp.o.provides.build: src/Token/Lexical/CMakeFiles/TokenLexical.dir/Word.cpp.o
+src/Token/Lexical/CMakeFiles/TokenLexical.dir/Base/Base.cpp.o.provides.build: src/Token/Lexical/CMakeFiles/TokenLexical.dir/Base/Base.cpp.o
 
-src/Token/Lexical/CMakeFiles/TokenLexical.dir/Number.cpp.o: src/Token/Lexical/CMakeFiles/TokenLexical.dir/flags.make
-src/Token/Lexical/CMakeFiles/TokenLexical.dir/Number.cpp.o: ../src/Token/Lexical/Number.cpp
+src/Token/Lexical/CMakeFiles/TokenLexical.dir/Number/Number.cpp.o: src/Token/Lexical/CMakeFiles/TokenLexical.dir/flags.make
+src/Token/Lexical/CMakeFiles/TokenLexical.dir/Number/Number.cpp.o: ../src/Token/Lexical/Number/Number.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/daniel/Workspace/EquationSolver-cpp/build/CMakeFiles $(CMAKE_PROGRESS_2)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/Token/Lexical/CMakeFiles/TokenLexical.dir/Number.cpp.o"
-	cd /home/daniel/Workspace/EquationSolver-cpp/build/src/Token/Lexical && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/TokenLexical.dir/Number.cpp.o -c /home/daniel/Workspace/EquationSolver-cpp/src/Token/Lexical/Number.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/Token/Lexical/CMakeFiles/TokenLexical.dir/Number/Number.cpp.o"
+	cd /home/daniel/Workspace/EquationSolver-cpp/build/src/Token/Lexical && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/TokenLexical.dir/Number/Number.cpp.o -c /home/daniel/Workspace/EquationSolver-cpp/src/Token/Lexical/Number/Number.cpp
 
-src/Token/Lexical/CMakeFiles/TokenLexical.dir/Number.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TokenLexical.dir/Number.cpp.i"
-	cd /home/daniel/Workspace/EquationSolver-cpp/build/src/Token/Lexical && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/daniel/Workspace/EquationSolver-cpp/src/Token/Lexical/Number.cpp > CMakeFiles/TokenLexical.dir/Number.cpp.i
+src/Token/Lexical/CMakeFiles/TokenLexical.dir/Number/Number.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TokenLexical.dir/Number/Number.cpp.i"
+	cd /home/daniel/Workspace/EquationSolver-cpp/build/src/Token/Lexical && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/daniel/Workspace/EquationSolver-cpp/src/Token/Lexical/Number/Number.cpp > CMakeFiles/TokenLexical.dir/Number/Number.cpp.i
 
-src/Token/Lexical/CMakeFiles/TokenLexical.dir/Number.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TokenLexical.dir/Number.cpp.s"
-	cd /home/daniel/Workspace/EquationSolver-cpp/build/src/Token/Lexical && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/daniel/Workspace/EquationSolver-cpp/src/Token/Lexical/Number.cpp -o CMakeFiles/TokenLexical.dir/Number.cpp.s
+src/Token/Lexical/CMakeFiles/TokenLexical.dir/Number/Number.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TokenLexical.dir/Number/Number.cpp.s"
+	cd /home/daniel/Workspace/EquationSolver-cpp/build/src/Token/Lexical && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/daniel/Workspace/EquationSolver-cpp/src/Token/Lexical/Number/Number.cpp -o CMakeFiles/TokenLexical.dir/Number/Number.cpp.s
 
-src/Token/Lexical/CMakeFiles/TokenLexical.dir/Number.cpp.o.requires:
-.PHONY : src/Token/Lexical/CMakeFiles/TokenLexical.dir/Number.cpp.o.requires
+src/Token/Lexical/CMakeFiles/TokenLexical.dir/Number/Number.cpp.o.requires:
+.PHONY : src/Token/Lexical/CMakeFiles/TokenLexical.dir/Number/Number.cpp.o.requires
 
-src/Token/Lexical/CMakeFiles/TokenLexical.dir/Number.cpp.o.provides: src/Token/Lexical/CMakeFiles/TokenLexical.dir/Number.cpp.o.requires
-	$(MAKE) -f src/Token/Lexical/CMakeFiles/TokenLexical.dir/build.make src/Token/Lexical/CMakeFiles/TokenLexical.dir/Number.cpp.o.provides.build
-.PHONY : src/Token/Lexical/CMakeFiles/TokenLexical.dir/Number.cpp.o.provides
+src/Token/Lexical/CMakeFiles/TokenLexical.dir/Number/Number.cpp.o.provides: src/Token/Lexical/CMakeFiles/TokenLexical.dir/Number/Number.cpp.o.requires
+	$(MAKE) -f src/Token/Lexical/CMakeFiles/TokenLexical.dir/build.make src/Token/Lexical/CMakeFiles/TokenLexical.dir/Number/Number.cpp.o.provides.build
+.PHONY : src/Token/Lexical/CMakeFiles/TokenLexical.dir/Number/Number.cpp.o.provides
 
-src/Token/Lexical/CMakeFiles/TokenLexical.dir/Number.cpp.o.provides.build: src/Token/Lexical/CMakeFiles/TokenLexical.dir/Number.cpp.o
+src/Token/Lexical/CMakeFiles/TokenLexical.dir/Number/Number.cpp.o.provides.build: src/Token/Lexical/CMakeFiles/TokenLexical.dir/Number/Number.cpp.o
 
-src/Token/Lexical/CMakeFiles/TokenLexical.dir/Base.cpp.o: src/Token/Lexical/CMakeFiles/TokenLexical.dir/flags.make
-src/Token/Lexical/CMakeFiles/TokenLexical.dir/Base.cpp.o: ../src/Token/Lexical/Base.cpp
+src/Token/Lexical/CMakeFiles/TokenLexical.dir/Word/Word.cpp.o: src/Token/Lexical/CMakeFiles/TokenLexical.dir/flags.make
+src/Token/Lexical/CMakeFiles/TokenLexical.dir/Word/Word.cpp.o: ../src/Token/Lexical/Word/Word.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/daniel/Workspace/EquationSolver-cpp/build/CMakeFiles $(CMAKE_PROGRESS_3)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/Token/Lexical/CMakeFiles/TokenLexical.dir/Base.cpp.o"
-	cd /home/daniel/Workspace/EquationSolver-cpp/build/src/Token/Lexical && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/TokenLexical.dir/Base.cpp.o -c /home/daniel/Workspace/EquationSolver-cpp/src/Token/Lexical/Base.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/Token/Lexical/CMakeFiles/TokenLexical.dir/Word/Word.cpp.o"
+	cd /home/daniel/Workspace/EquationSolver-cpp/build/src/Token/Lexical && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/TokenLexical.dir/Word/Word.cpp.o -c /home/daniel/Workspace/EquationSolver-cpp/src/Token/Lexical/Word/Word.cpp
 
-src/Token/Lexical/CMakeFiles/TokenLexical.dir/Base.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TokenLexical.dir/Base.cpp.i"
-	cd /home/daniel/Workspace/EquationSolver-cpp/build/src/Token/Lexical && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/daniel/Workspace/EquationSolver-cpp/src/Token/Lexical/Base.cpp > CMakeFiles/TokenLexical.dir/Base.cpp.i
+src/Token/Lexical/CMakeFiles/TokenLexical.dir/Word/Word.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TokenLexical.dir/Word/Word.cpp.i"
+	cd /home/daniel/Workspace/EquationSolver-cpp/build/src/Token/Lexical && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/daniel/Workspace/EquationSolver-cpp/src/Token/Lexical/Word/Word.cpp > CMakeFiles/TokenLexical.dir/Word/Word.cpp.i
 
-src/Token/Lexical/CMakeFiles/TokenLexical.dir/Base.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TokenLexical.dir/Base.cpp.s"
-	cd /home/daniel/Workspace/EquationSolver-cpp/build/src/Token/Lexical && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/daniel/Workspace/EquationSolver-cpp/src/Token/Lexical/Base.cpp -o CMakeFiles/TokenLexical.dir/Base.cpp.s
+src/Token/Lexical/CMakeFiles/TokenLexical.dir/Word/Word.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TokenLexical.dir/Word/Word.cpp.s"
+	cd /home/daniel/Workspace/EquationSolver-cpp/build/src/Token/Lexical && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/daniel/Workspace/EquationSolver-cpp/src/Token/Lexical/Word/Word.cpp -o CMakeFiles/TokenLexical.dir/Word/Word.cpp.s
 
-src/Token/Lexical/CMakeFiles/TokenLexical.dir/Base.cpp.o.requires:
-.PHONY : src/Token/Lexical/CMakeFiles/TokenLexical.dir/Base.cpp.o.requires
+src/Token/Lexical/CMakeFiles/TokenLexical.dir/Word/Word.cpp.o.requires:
+.PHONY : src/Token/Lexical/CMakeFiles/TokenLexical.dir/Word/Word.cpp.o.requires
 
-src/Token/Lexical/CMakeFiles/TokenLexical.dir/Base.cpp.o.provides: src/Token/Lexical/CMakeFiles/TokenLexical.dir/Base.cpp.o.requires
-	$(MAKE) -f src/Token/Lexical/CMakeFiles/TokenLexical.dir/build.make src/Token/Lexical/CMakeFiles/TokenLexical.dir/Base.cpp.o.provides.build
-.PHONY : src/Token/Lexical/CMakeFiles/TokenLexical.dir/Base.cpp.o.provides
+src/Token/Lexical/CMakeFiles/TokenLexical.dir/Word/Word.cpp.o.provides: src/Token/Lexical/CMakeFiles/TokenLexical.dir/Word/Word.cpp.o.requires
+	$(MAKE) -f src/Token/Lexical/CMakeFiles/TokenLexical.dir/build.make src/Token/Lexical/CMakeFiles/TokenLexical.dir/Word/Word.cpp.o.provides.build
+.PHONY : src/Token/Lexical/CMakeFiles/TokenLexical.dir/Word/Word.cpp.o.provides
 
-src/Token/Lexical/CMakeFiles/TokenLexical.dir/Base.cpp.o.provides.build: src/Token/Lexical/CMakeFiles/TokenLexical.dir/Base.cpp.o
+src/Token/Lexical/CMakeFiles/TokenLexical.dir/Word/Word.cpp.o.provides.build: src/Token/Lexical/CMakeFiles/TokenLexical.dir/Word/Word.cpp.o
 
 # Object files for target TokenLexical
 TokenLexical_OBJECTS = \
-"CMakeFiles/TokenLexical.dir/Word.cpp.o" \
-"CMakeFiles/TokenLexical.dir/Number.cpp.o" \
-"CMakeFiles/TokenLexical.dir/Base.cpp.o"
+"CMakeFiles/TokenLexical.dir/Base/Base.cpp.o" \
+"CMakeFiles/TokenLexical.dir/Number/Number.cpp.o" \
+"CMakeFiles/TokenLexical.dir/Word/Word.cpp.o"
 
 # External object files for target TokenLexical
 TokenLexical_EXTERNAL_OBJECTS =
 
-src/Token/Lexical/libTokenLexical.a: src/Token/Lexical/CMakeFiles/TokenLexical.dir/Word.cpp.o
-src/Token/Lexical/libTokenLexical.a: src/Token/Lexical/CMakeFiles/TokenLexical.dir/Number.cpp.o
-src/Token/Lexical/libTokenLexical.a: src/Token/Lexical/CMakeFiles/TokenLexical.dir/Base.cpp.o
+src/Token/Lexical/libTokenLexical.a: src/Token/Lexical/CMakeFiles/TokenLexical.dir/Base/Base.cpp.o
+src/Token/Lexical/libTokenLexical.a: src/Token/Lexical/CMakeFiles/TokenLexical.dir/Number/Number.cpp.o
+src/Token/Lexical/libTokenLexical.a: src/Token/Lexical/CMakeFiles/TokenLexical.dir/Word/Word.cpp.o
 src/Token/Lexical/libTokenLexical.a: src/Token/Lexical/CMakeFiles/TokenLexical.dir/build.make
 src/Token/Lexical/libTokenLexical.a: src/Token/Lexical/CMakeFiles/TokenLexical.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library libTokenLexical.a"
@@ -140,9 +140,9 @@ src/Token/Lexical/libTokenLexical.a: src/Token/Lexical/CMakeFiles/TokenLexical.d
 src/Token/Lexical/CMakeFiles/TokenLexical.dir/build: src/Token/Lexical/libTokenLexical.a
 .PHONY : src/Token/Lexical/CMakeFiles/TokenLexical.dir/build
 
-src/Token/Lexical/CMakeFiles/TokenLexical.dir/requires: src/Token/Lexical/CMakeFiles/TokenLexical.dir/Word.cpp.o.requires
-src/Token/Lexical/CMakeFiles/TokenLexical.dir/requires: src/Token/Lexical/CMakeFiles/TokenLexical.dir/Number.cpp.o.requires
-src/Token/Lexical/CMakeFiles/TokenLexical.dir/requires: src/Token/Lexical/CMakeFiles/TokenLexical.dir/Base.cpp.o.requires
+src/Token/Lexical/CMakeFiles/TokenLexical.dir/requires: src/Token/Lexical/CMakeFiles/TokenLexical.dir/Base/Base.cpp.o.requires
+src/Token/Lexical/CMakeFiles/TokenLexical.dir/requires: src/Token/Lexical/CMakeFiles/TokenLexical.dir/Number/Number.cpp.o.requires
+src/Token/Lexical/CMakeFiles/TokenLexical.dir/requires: src/Token/Lexical/CMakeFiles/TokenLexical.dir/Word/Word.cpp.o.requires
 .PHONY : src/Token/Lexical/CMakeFiles/TokenLexical.dir/requires
 
 src/Token/Lexical/CMakeFiles/TokenLexical.dir/clean:

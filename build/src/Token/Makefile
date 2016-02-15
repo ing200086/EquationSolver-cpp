@@ -111,6 +111,92 @@ depend:
 	cd /home/daniel/Workspace/EquationSolver-cpp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+src/Token/CMakeFiles/TokenLexical.dir/rule:
+	cd /home/daniel/Workspace/EquationSolver-cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/Token/CMakeFiles/TokenLexical.dir/rule
+.PHONY : src/Token/CMakeFiles/TokenLexical.dir/rule
+
+# Convenience name for target.
+TokenLexical: src/Token/CMakeFiles/TokenLexical.dir/rule
+.PHONY : TokenLexical
+
+# fast build rule for target.
+TokenLexical/fast:
+	cd /home/daniel/Workspace/EquationSolver-cpp/build && $(MAKE) -f src/Token/CMakeFiles/TokenLexical.dir/build.make src/Token/CMakeFiles/TokenLexical.dir/build
+.PHONY : TokenLexical/fast
+
+Lexical/Base/Base.o: Lexical/Base/Base.cpp.o
+.PHONY : Lexical/Base/Base.o
+
+# target to build an object file
+Lexical/Base/Base.cpp.o:
+	cd /home/daniel/Workspace/EquationSolver-cpp/build && $(MAKE) -f src/Token/CMakeFiles/TokenLexical.dir/build.make src/Token/CMakeFiles/TokenLexical.dir/Lexical/Base/Base.cpp.o
+.PHONY : Lexical/Base/Base.cpp.o
+
+Lexical/Base/Base.i: Lexical/Base/Base.cpp.i
+.PHONY : Lexical/Base/Base.i
+
+# target to preprocess a source file
+Lexical/Base/Base.cpp.i:
+	cd /home/daniel/Workspace/EquationSolver-cpp/build && $(MAKE) -f src/Token/CMakeFiles/TokenLexical.dir/build.make src/Token/CMakeFiles/TokenLexical.dir/Lexical/Base/Base.cpp.i
+.PHONY : Lexical/Base/Base.cpp.i
+
+Lexical/Base/Base.s: Lexical/Base/Base.cpp.s
+.PHONY : Lexical/Base/Base.s
+
+# target to generate assembly for a file
+Lexical/Base/Base.cpp.s:
+	cd /home/daniel/Workspace/EquationSolver-cpp/build && $(MAKE) -f src/Token/CMakeFiles/TokenLexical.dir/build.make src/Token/CMakeFiles/TokenLexical.dir/Lexical/Base/Base.cpp.s
+.PHONY : Lexical/Base/Base.cpp.s
+
+Lexical/Number/Number.o: Lexical/Number/Number.cpp.o
+.PHONY : Lexical/Number/Number.o
+
+# target to build an object file
+Lexical/Number/Number.cpp.o:
+	cd /home/daniel/Workspace/EquationSolver-cpp/build && $(MAKE) -f src/Token/CMakeFiles/TokenLexical.dir/build.make src/Token/CMakeFiles/TokenLexical.dir/Lexical/Number/Number.cpp.o
+.PHONY : Lexical/Number/Number.cpp.o
+
+Lexical/Number/Number.i: Lexical/Number/Number.cpp.i
+.PHONY : Lexical/Number/Number.i
+
+# target to preprocess a source file
+Lexical/Number/Number.cpp.i:
+	cd /home/daniel/Workspace/EquationSolver-cpp/build && $(MAKE) -f src/Token/CMakeFiles/TokenLexical.dir/build.make src/Token/CMakeFiles/TokenLexical.dir/Lexical/Number/Number.cpp.i
+.PHONY : Lexical/Number/Number.cpp.i
+
+Lexical/Number/Number.s: Lexical/Number/Number.cpp.s
+.PHONY : Lexical/Number/Number.s
+
+# target to generate assembly for a file
+Lexical/Number/Number.cpp.s:
+	cd /home/daniel/Workspace/EquationSolver-cpp/build && $(MAKE) -f src/Token/CMakeFiles/TokenLexical.dir/build.make src/Token/CMakeFiles/TokenLexical.dir/Lexical/Number/Number.cpp.s
+.PHONY : Lexical/Number/Number.cpp.s
+
+Lexical/Word/Word.o: Lexical/Word/Word.cpp.o
+.PHONY : Lexical/Word/Word.o
+
+# target to build an object file
+Lexical/Word/Word.cpp.o:
+	cd /home/daniel/Workspace/EquationSolver-cpp/build && $(MAKE) -f src/Token/CMakeFiles/TokenLexical.dir/build.make src/Token/CMakeFiles/TokenLexical.dir/Lexical/Word/Word.cpp.o
+.PHONY : Lexical/Word/Word.cpp.o
+
+Lexical/Word/Word.i: Lexical/Word/Word.cpp.i
+.PHONY : Lexical/Word/Word.i
+
+# target to preprocess a source file
+Lexical/Word/Word.cpp.i:
+	cd /home/daniel/Workspace/EquationSolver-cpp/build && $(MAKE) -f src/Token/CMakeFiles/TokenLexical.dir/build.make src/Token/CMakeFiles/TokenLexical.dir/Lexical/Word/Word.cpp.i
+.PHONY : Lexical/Word/Word.cpp.i
+
+Lexical/Word/Word.s: Lexical/Word/Word.cpp.s
+.PHONY : Lexical/Word/Word.s
+
+# target to generate assembly for a file
+Lexical/Word/Word.cpp.s:
+	cd /home/daniel/Workspace/EquationSolver-cpp/build && $(MAKE) -f src/Token/CMakeFiles/TokenLexical.dir/build.make src/Token/CMakeFiles/TokenLexical.dir/Lexical/Word/Word.cpp.s
+.PHONY : Lexical/Word/Word.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -119,7 +205,17 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... TokenLexical"
 	@echo "... test"
+	@echo "... Lexical/Base/Base.o"
+	@echo "... Lexical/Base/Base.i"
+	@echo "... Lexical/Base/Base.s"
+	@echo "... Lexical/Number/Number.o"
+	@echo "... Lexical/Number/Number.i"
+	@echo "... Lexical/Number/Number.s"
+	@echo "... Lexical/Word/Word.o"
+	@echo "... Lexical/Word/Word.i"
+	@echo "... Lexical/Word/Word.s"
 .PHONY : help
 
 

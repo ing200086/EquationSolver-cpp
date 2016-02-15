@@ -19,6 +19,7 @@ set(CMAKE_TARGET_LINKED_INFO_FILES
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "test/gtest/src/gtest/include"
   "test/gmock/src/gmock/include"
+  "../test/Unit/Token/Lexical/include"
   "../src/Token/Lexical/include"
   )
 set(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

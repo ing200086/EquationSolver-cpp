@@ -1,0 +1,2 @@
+/usr/bin/ar cq libTokenLexical.a  CMakeFiles/TokenLexical.dir/Lexical/Base/Base.cpp.o CMakeFiles/TokenLexical.dir/Lexical/Number/Number.cpp.o CMakeFiles/TokenLexical.dir/Lexical/Word/Word.cpp.o
+/usr/bin/ranlib libTokenLexical.a

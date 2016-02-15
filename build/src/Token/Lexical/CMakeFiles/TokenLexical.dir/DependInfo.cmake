@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/daniel/Workspace/EquationSolver-cpp/src/Token/Lexical/Base.cpp" "/home/daniel/Workspace/EquationSolver-cpp/build/src/Token/Lexical/CMakeFiles/TokenLexical.dir/Base.cpp.o"
-  "/home/daniel/Workspace/EquationSolver-cpp/src/Token/Lexical/Number.cpp" "/home/daniel/Workspace/EquationSolver-cpp/build/src/Token/Lexical/CMakeFiles/TokenLexical.dir/Number.cpp.o"
-  "/home/daniel/Workspace/EquationSolver-cpp/src/Token/Lexical/Word.cpp" "/home/daniel/Workspace/EquationSolver-cpp/build/src/Token/Lexical/CMakeFiles/TokenLexical.dir/Word.cpp.o"
+  "/home/daniel/Workspace/EquationSolver-cpp/src/Token/Lexical/Base/Base.cpp" "/home/daniel/Workspace/EquationSolver-cpp/build/src/Token/Lexical/CMakeFiles/TokenLexical.dir/Base/Base.cpp.o"
+  "/home/daniel/Workspace/EquationSolver-cpp/src/Token/Lexical/Number/Number.cpp" "/home/daniel/Workspace/EquationSolver-cpp/build/src/Token/Lexical/CMakeFiles/TokenLexical.dir/Number/Number.cpp.o"
+  "/home/daniel/Workspace/EquationSolver-cpp/src/Token/Lexical/Word/Word.cpp" "/home/daniel/Workspace/EquationSolver-cpp/build/src/Token/Lexical/CMakeFiles/TokenLexical.dir/Word/Word.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

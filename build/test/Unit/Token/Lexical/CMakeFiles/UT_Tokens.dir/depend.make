@@ -4,8 +4,9 @@
 test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/Number/NumberTest.cpp.o: ../src/Token/Lexical/include/Base.h
 test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/Number/NumberTest.cpp.o: ../src/Token/Lexical/include/IToken.h
 test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/Number/NumberTest.cpp.o: ../src/Token/Lexical/include/Number.h
+test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/Number/NumberTest.cpp.o: ../test/Unit/Token/Lexical/include/NumberTest.h
+test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/Number/NumberTest.cpp.o: ../test/Unit/Token/Lexical/include/TokenTest.h
 test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/Number/NumberTest.cpp.o: ../test/Unit/Token/Lexical/Number/NumberTest.cpp
-test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/Number/NumberTest.cpp.o: ../test/Unit/Token/Lexical/Number/NumberTest.h
 test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/Number/NumberTest.cpp.o: test/gmock/src/gmock/include/gmock/gmock-actions.h
 test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/Number/NumberTest.cpp.o: test/gmock/src/gmock/include/gmock/gmock-cardinalities.h
 test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/Number/NumberTest.cpp.o: test/gmock/src/gmock/include/gmock/gmock-generated-actions.h
@@ -43,8 +44,9 @@ test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/Number/NumberTest.cpp.o: test/g
 test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/Word/WordTest.cpp.o: ../src/Token/Lexical/include/Base.h
 test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/Word/WordTest.cpp.o: ../src/Token/Lexical/include/IToken.h
 test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/Word/WordTest.cpp.o: ../src/Token/Lexical/include/Word.h
+test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/Word/WordTest.cpp.o: ../test/Unit/Token/Lexical/include/TokenTest.h
+test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/Word/WordTest.cpp.o: ../test/Unit/Token/Lexical/include/WordTest.h
 test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/Word/WordTest.cpp.o: ../test/Unit/Token/Lexical/Word/WordTest.cpp
-test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/Word/WordTest.cpp.o: ../test/Unit/Token/Lexical/Word/WordTest.h
 test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/Word/WordTest.cpp.o: test/gmock/src/gmock/include/gmock/gmock-actions.h
 test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/Word/WordTest.cpp.o: test/gmock/src/gmock/include/gmock/gmock-cardinalities.h
 test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/Word/WordTest.cpp.o: test/gmock/src/gmock/include/gmock/gmock-generated-actions.h

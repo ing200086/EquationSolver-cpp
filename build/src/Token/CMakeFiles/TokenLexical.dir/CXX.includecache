@@ -6,22 +6,6 @@
 
 #IncludeRegexTransform: 
 
-../src/Token/Lexical/include/Base.h
-IToken.h
-../src/Token/Lexical/include/IToken.h
-
-../src/Token/Lexical/include/IToken.h
-string
--
-
-../src/Token/Lexical/include/Number.h
-Base.h
-../src/Token/Lexical/include/Base.h
-
-../src/Token/Lexical/include/Word.h
-Base.h
-../src/Token/Lexical/include/Base.h
-
 /home/daniel/Workspace/EquationSolver-cpp/src/Token/Lexical/Base/Base.cpp
 Base.h
 /home/daniel/Workspace/EquationSolver-cpp/src/Token/Lexical/Base/Base.h

@@ -5,8 +5,9 @@ test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/Number/NumberTest.cpp.o
  ../src/Token/Lexical/include/Base.h
  ../src/Token/Lexical/include/IToken.h
  ../src/Token/Lexical/include/Number.h
+ ../test/Unit/Token/Lexical/include/NumberTest.h
+ ../test/Unit/Token/Lexical/include/TokenTest.h
  /home/daniel/Workspace/EquationSolver-cpp/test/Unit/Token/Lexical/Number/NumberTest.cpp
- /home/daniel/Workspace/EquationSolver-cpp/test/Unit/Token/Lexical/Number/NumberTest.h
  test/gmock/src/gmock/include/gmock/gmock-actions.h
  test/gmock/src/gmock/include/gmock/gmock-cardinalities.h
  test/gmock/src/gmock/include/gmock/gmock-generated-actions.h
@@ -44,8 +45,9 @@ test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/Word/WordTest.cpp.o
  ../src/Token/Lexical/include/Base.h
  ../src/Token/Lexical/include/IToken.h
  ../src/Token/Lexical/include/Word.h
+ ../test/Unit/Token/Lexical/include/TokenTest.h
+ ../test/Unit/Token/Lexical/include/WordTest.h
  /home/daniel/Workspace/EquationSolver-cpp/test/Unit/Token/Lexical/Word/WordTest.cpp
- /home/daniel/Workspace/EquationSolver-cpp/test/Unit/Token/Lexical/Word/WordTest.h
  test/gmock/src/gmock/include/gmock/gmock-actions.h
  test/gmock/src/gmock/include/gmock/gmock-cardinalities.h
  test/gmock/src/gmock/include/gmock/gmock-generated-actions.h

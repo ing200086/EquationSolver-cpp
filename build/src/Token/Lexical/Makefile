@@ -125,77 +125,77 @@ TokenLexical/fast:
 	cd /home/daniel/Workspace/EquationSolver-cpp/build && $(MAKE) -f src/Token/Lexical/CMakeFiles/TokenLexical.dir/build.make src/Token/Lexical/CMakeFiles/TokenLexical.dir/build
 .PHONY : TokenLexical/fast
 
-Base.o: Base.cpp.o
-.PHONY : Base.o
+Base/Base.o: Base/Base.cpp.o
+.PHONY : Base/Base.o
 
 # target to build an object file
-Base.cpp.o:
-	cd /home/daniel/Workspace/EquationSolver-cpp/build && $(MAKE) -f src/Token/Lexical/CMakeFiles/TokenLexical.dir/build.make src/Token/Lexical/CMakeFiles/TokenLexical.dir/Base.cpp.o
-.PHONY : Base.cpp.o
+Base/Base.cpp.o:
+	cd /home/daniel/Workspace/EquationSolver-cpp/build && $(MAKE) -f src/Token/Lexical/CMakeFiles/TokenLexical.dir/build.make src/Token/Lexical/CMakeFiles/TokenLexical.dir/Base/Base.cpp.o
+.PHONY : Base/Base.cpp.o
 
-Base.i: Base.cpp.i
-.PHONY : Base.i
+Base/Base.i: Base/Base.cpp.i
+.PHONY : Base/Base.i
 
 # target to preprocess a source file
-Base.cpp.i:
-	cd /home/daniel/Workspace/EquationSolver-cpp/build && $(MAKE) -f src/Token/Lexical/CMakeFiles/TokenLexical.dir/build.make src/Token/Lexical/CMakeFiles/TokenLexical.dir/Base.cpp.i
-.PHONY : Base.cpp.i
+Base/Base.cpp.i:
+	cd /home/daniel/Workspace/EquationSolver-cpp/build && $(MAKE) -f src/Token/Lexical/CMakeFiles/TokenLexical.dir/build.make src/Token/Lexical/CMakeFiles/TokenLexical.dir/Base/Base.cpp.i
+.PHONY : Base/Base.cpp.i
 
-Base.s: Base.cpp.s
-.PHONY : Base.s
+Base/Base.s: Base/Base.cpp.s
+.PHONY : Base/Base.s
 
 # target to generate assembly for a file
-Base.cpp.s:
-	cd /home/daniel/Workspace/EquationSolver-cpp/build && $(MAKE) -f src/Token/Lexical/CMakeFiles/TokenLexical.dir/build.make src/Token/Lexical/CMakeFiles/TokenLexical.dir/Base.cpp.s
-.PHONY : Base.cpp.s
+Base/Base.cpp.s:
+	cd /home/daniel/Workspace/EquationSolver-cpp/build && $(MAKE) -f src/Token/Lexical/CMakeFiles/TokenLexical.dir/build.make src/Token/Lexical/CMakeFiles/TokenLexical.dir/Base/Base.cpp.s
+.PHONY : Base/Base.cpp.s
 
-Number.o: Number.cpp.o
-.PHONY : Number.o
+Number/Number.o: Number/Number.cpp.o
+.PHONY : Number/Number.o
 
 # target to build an object file
-Number.cpp.o:
-	cd /home/daniel/Workspace/EquationSolver-cpp/build && $(MAKE) -f src/Token/Lexical/CMakeFiles/TokenLexical.dir/build.make src/Token/Lexical/CMakeFiles/TokenLexical.dir/Number.cpp.o
-.PHONY : Number.cpp.o
+Number/Number.cpp.o:
+	cd /home/daniel/Workspace/EquationSolver-cpp/build && $(MAKE) -f src/Token/Lexical/CMakeFiles/TokenLexical.dir/build.make src/Token/Lexical/CMakeFiles/TokenLexical.dir/Number/Number.cpp.o
+.PHONY : Number/Number.cpp.o
 
-Number.i: Number.cpp.i
-.PHONY : Number.i
+Number/Number.i: Number/Number.cpp.i
+.PHONY : Number/Number.i
 
 # target to preprocess a source file
-Number.cpp.i:
-	cd /home/daniel/Workspace/EquationSolver-cpp/build && $(MAKE) -f src/Token/Lexical/CMakeFiles/TokenLexical.dir/build.make src/Token/Lexical/CMakeFiles/TokenLexical.dir/Number.cpp.i
-.PHONY : Number.cpp.i
+Number/Number.cpp.i:
+	cd /home/daniel/Workspace/EquationSolver-cpp/build && $(MAKE) -f src/Token/Lexical/CMakeFiles/TokenLexical.dir/build.make src/Token/Lexical/CMakeFiles/TokenLexical.dir/Number/Number.cpp.i
+.PHONY : Number/Number.cpp.i
 
-Number.s: Number.cpp.s
-.PHONY : Number.s
+Number/Number.s: Number/Number.cpp.s
+.PHONY : Number/Number.s
 
 # target to generate assembly for a file
-Number.cpp.s:
-	cd /home/daniel/Workspace/EquationSolver-cpp/build && $(MAKE) -f src/Token/Lexical/CMakeFiles/TokenLexical.dir/build.make src/Token/Lexical/CMakeFiles/TokenLexical.dir/Number.cpp.s
-.PHONY : Number.cpp.s
+Number/Number.cpp.s:
+	cd /home/daniel/Workspace/EquationSolver-cpp/build && $(MAKE) -f src/Token/Lexical/CMakeFiles/TokenLexical.dir/build.make src/Token/Lexical/CMakeFiles/TokenLexical.dir/Number/Number.cpp.s
+.PHONY : Number/Number.cpp.s
 
-Word.o: Word.cpp.o
-.PHONY : Word.o
+Word/Word.o: Word/Word.cpp.o
+.PHONY : Word/Word.o
 
 # target to build an object file
-Word.cpp.o:
-	cd /home/daniel/Workspace/EquationSolver-cpp/build && $(MAKE) -f src/Token/Lexical/CMakeFiles/TokenLexical.dir/build.make src/Token/Lexical/CMakeFiles/TokenLexical.dir/Word.cpp.o
-.PHONY : Word.cpp.o
+Word/Word.cpp.o:
+	cd /home/daniel/Workspace/EquationSolver-cpp/build && $(MAKE) -f src/Token/Lexical/CMakeFiles/TokenLexical.dir/build.make src/Token/Lexical/CMakeFiles/TokenLexical.dir/Word/Word.cpp.o
+.PHONY : Word/Word.cpp.o
 
-Word.i: Word.cpp.i
-.PHONY : Word.i
+Word/Word.i: Word/Word.cpp.i
+.PHONY : Word/Word.i
 
 # target to preprocess a source file
-Word.cpp.i:
-	cd /home/daniel/Workspace/EquationSolver-cpp/build && $(MAKE) -f src/Token/Lexical/CMakeFiles/TokenLexical.dir/build.make src/Token/Lexical/CMakeFiles/TokenLexical.dir/Word.cpp.i
-.PHONY : Word.cpp.i
+Word/Word.cpp.i:
+	cd /home/daniel/Workspace/EquationSolver-cpp/build && $(MAKE) -f src/Token/Lexical/CMakeFiles/TokenLexical.dir/build.make src/Token/Lexical/CMakeFiles/TokenLexical.dir/Word/Word.cpp.i
+.PHONY : Word/Word.cpp.i
 
-Word.s: Word.cpp.s
-.PHONY : Word.s
+Word/Word.s: Word/Word.cpp.s
+.PHONY : Word/Word.s
 
 # target to generate assembly for a file
-Word.cpp.s:
-	cd /home/daniel/Workspace/EquationSolver-cpp/build && $(MAKE) -f src/Token/Lexical/CMakeFiles/TokenLexical.dir/build.make src/Token/Lexical/CMakeFiles/TokenLexical.dir/Word.cpp.s
-.PHONY : Word.cpp.s
+Word/Word.cpp.s:
+	cd /home/daniel/Workspace/EquationSolver-cpp/build && $(MAKE) -f src/Token/Lexical/CMakeFiles/TokenLexical.dir/build.make src/Token/Lexical/CMakeFiles/TokenLexical.dir/Word/Word.cpp.s
+.PHONY : Word/Word.cpp.s
 
 # Help Target
 help:
@@ -207,15 +207,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... TokenLexical"
 	@echo "... test"
-	@echo "... Base.o"
-	@echo "... Base.i"
-	@echo "... Base.s"
-	@echo "... Number.o"
-	@echo "... Number.i"
-	@echo "... Number.s"
-	@echo "... Word.o"
-	@echo "... Word.i"
-	@echo "... Word.s"
+	@echo "... Base/Base.o"
+	@echo "... Base/Base.i"
+	@echo "... Base/Base.s"
+	@echo "... Number/Number.o"
+	@echo "... Number/Number.i"
+	@echo "... Number/Number.s"
+	@echo "... Word/Word.o"
+	@echo "... Word/Word.i"
+	@echo "... Word/Word.s"
 .PHONY : help
 
 

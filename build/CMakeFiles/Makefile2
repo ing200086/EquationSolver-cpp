@@ -145,31 +145,16 @@ clean: test/CMakeFiles/gtest.dir/clean
 # Directory level rules for directory test/Unit
 
 # Convenience name for "all" pass in the directory.
-test/Unit/all: test/Unit/Token/all
+test/Unit/all: test/Unit/Token/Lexical/all
 .PHONY : test/Unit/all
 
 # Convenience name for "clean" pass in the directory.
-test/Unit/clean: test/Unit/Token/clean
+test/Unit/clean: test/Unit/Token/Lexical/clean
 .PHONY : test/Unit/clean
 
 # Convenience name for "preinstall" pass in the directory.
-test/Unit/preinstall: test/Unit/Token/preinstall
+test/Unit/preinstall: test/Unit/Token/Lexical/preinstall
 .PHONY : test/Unit/preinstall
-
-#=============================================================================
-# Directory level rules for directory test/Unit/Token
-
-# Convenience name for "all" pass in the directory.
-test/Unit/Token/all: test/Unit/Token/Lexical/all
-.PHONY : test/Unit/Token/all
-
-# Convenience name for "clean" pass in the directory.
-test/Unit/Token/clean: test/Unit/Token/Lexical/clean
-.PHONY : test/Unit/Token/clean
-
-# Convenience name for "preinstall" pass in the directory.
-test/Unit/Token/preinstall: test/Unit/Token/Lexical/preinstall
-.PHONY : test/Unit/Token/preinstall
 
 #=============================================================================
 # Directory level rules for directory test/Unit/Token/Lexical
@@ -227,31 +212,16 @@ clean: test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/clean
 # Directory level rules for directory src
 
 # Convenience name for "all" pass in the directory.
-src/all: src/Token/all
+src/all: src/Token/Lexical/all
 .PHONY : src/all
 
 # Convenience name for "clean" pass in the directory.
-src/clean: src/Token/clean
+src/clean: src/Token/Lexical/clean
 .PHONY : src/clean
 
 # Convenience name for "preinstall" pass in the directory.
-src/preinstall: src/Token/preinstall
+src/preinstall: src/Token/Lexical/preinstall
 .PHONY : src/preinstall
-
-#=============================================================================
-# Directory level rules for directory src/Token
-
-# Convenience name for "all" pass in the directory.
-src/Token/all: src/Token/Lexical/all
-.PHONY : src/Token/all
-
-# Convenience name for "clean" pass in the directory.
-src/Token/clean: src/Token/Lexical/clean
-.PHONY : src/Token/clean
-
-# Convenience name for "preinstall" pass in the directory.
-src/Token/preinstall: src/Token/Lexical/preinstall
-.PHONY : src/Token/preinstall
 
 #=============================================================================
 # Directory level rules for directory src/Token/Lexical

@@ -14,11 +14,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "test/gmock/tmp/gmock-cfgcmd.txt.in"
   "test/gtest/tmp/gtest-cfgcmd.txt.in"
   "../src/CMakeLists.txt"
-  "../src/Token/CMakeLists.txt"
   "../src/Token/Lexical/CMakeLists.txt"
   "../test/CMakeLists.txt"
   "../test/Unit/CMakeLists.txt"
-  "../test/Unit/Token/CMakeLists.txt"
   "../test/Unit/Token/Lexical/CMakeLists.txt"
   "/usr/share/cmake-3.2/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.2/Modules/CMakeCXXInformation.cmake"
@@ -56,10 +54,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "test/CMakeFiles/CMakeDirectoryInformation.cmake"
   "test/Unit/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "test/Unit/Token/CMakeFiles/CMakeDirectoryInformation.cmake"
   "test/Unit/Token/Lexical/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "src/Token/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/Token/Lexical/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
