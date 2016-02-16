@@ -1,13 +1,13 @@
-Start testing: Feb 15 20:47 CST
+Start testing: Feb 15 20:56 CST
 ----------------------------------------------------------
 1/1 Testing: UT_Tokens
 1/1 Test: UT_Tokens
 Command: "/home/daniel/Workspace/EquationSolver-cpp/build/test/Unit/Token/Lexical/UT_Tokens"
 Directory: /home/daniel/Workspace/EquationSolver-cpp/build/test/Unit/Token/Lexical
-"UT_Tokens" start time: Feb 15 20:47 CST
+"UT_Tokens" start time: Feb 15 20:56 CST
 Output:
 ----------------------------------------------------------
-[==========] Running 83 tests from 7 test cases.
+[==========] Running 87 tests from 8 test cases.
 [----------] Global test environment set-up.
 [----------] 10 tests from Digits/TestValidDigits
 [ RUN      ] Digits/TestValidDigits.AreAccepted/0
@@ -100,10 +100,12 @@ Output:
 [       OK ] Symbols/TestNonDigits.AreRejected/4 (0 ms)
 [----------] 5 tests from Symbols/TestNonDigits (0 ms total)
 
-[----------] 1 test from ValidIntegers/TestValidIntegerString
+[----------] 2 tests from ValidIntegers/TestValidIntegerString
 [ RUN      ] ValidIntegers/TestValidIntegerString.ReturnsTheInteger/0
 [       OK ] ValidIntegers/TestValidIntegerString.ReturnsTheInteger/0 (0 ms)
-[----------] 1 test from ValidIntegers/TestValidIntegerString (0 ms total)
+[ RUN      ] ValidIntegers/TestValidIntegerString.ReturnsTheInteger/1
+[       OK ] ValidIntegers/TestValidIntegerString.ReturnsTheInteger/1 (0 ms)
+[----------] 2 tests from ValidIntegers/TestValidIntegerString (0 ms total)
 
 [----------] 26 tests from ValidAlphas/TestValidAlphas
 [ RUN      ] ValidAlphas/TestValidAlphas.AreAccepted/0
@@ -137,7 +139,7 @@ Output:
 [ RUN      ] ValidAlphas/TestValidAlphas.AreAccepted/14
 [       OK ] ValidAlphas/TestValidAlphas.AreAccepted/14 (0 ms)
 [ RUN      ] ValidAlphas/TestValidAlphas.AreAccepted/15
-[       OK ] ValidAlphas/TestValidAlphas.AreAccepted/15 (0 ms)
+[       OK ] ValidAlphas/TestValidAlphas.AreAccepted/15 (1 ms)
 [ RUN      ] ValidAlphas/TestValidAlphas.AreAccepted/16
 [       OK ] ValidAlphas/TestValidAlphas.AreAccepted/16 (0 ms)
 [ RUN      ] ValidAlphas/TestValidAlphas.AreAccepted/17
@@ -196,15 +198,24 @@ Output:
 [       OK ] Symbols/TestNonAlphas.AreRejected/4 (0 ms)
 [----------] 5 tests from Symbols/TestNonAlphas (0 ms total)
 
+[----------] 3 tests from ValidWords/TestValidWordString
+[ RUN      ] ValidWords/TestValidWordString.ReturnsTheString/0
+[       OK ] ValidWords/TestValidWordString.ReturnsTheString/0 (0 ms)
+[ RUN      ] ValidWords/TestValidWordString.ReturnsTheString/1
+[       OK ] ValidWords/TestValidWordString.ReturnsTheString/1 (0 ms)
+[ RUN      ] ValidWords/TestValidWordString.ReturnsTheString/2
+[       OK ] ValidWords/TestValidWordString.ReturnsTheString/2 (0 ms)
+[----------] 3 tests from ValidWords/TestValidWordString (0 ms total)
+
 [----------] Global test environment tear-down
-[==========] 83 tests from 7 test cases ran. (1 ms total)
-[  PASSED  ] 83 tests.
+[==========] 87 tests from 8 test cases ran. (2 ms total)
+[  PASSED  ] 87 tests.
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"UT_Tokens" end time: Feb 15 20:47 CST
+"UT_Tokens" end time: Feb 15 20:56 CST
 "UT_Tokens" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Feb 15 20:47 CST
+End testing: Feb 15 20:56 CST

@@ -2,9 +2,7 @@
 #define __TOKEN_TEST_H__
 
 #include "gmock/gmock.h"
-    using ::testing::Test;
     using ::testing::TestWithParam;
-    using ::testing::ValuesIn;
 
 #include <memory>
     using ::std::unique_ptr;
@@ -54,6 +52,7 @@ const char _alphas[] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i',
                         's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
 const char _symbols[] = {'+', '-', '/', '*', '='};
 
-const string _integers[] = {"10"};
+const string _integers[] = {"10", "1234567890"};
+const string _words[] = {"A", "function", "x"};
 
 #endif

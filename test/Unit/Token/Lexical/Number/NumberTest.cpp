@@ -1,5 +1,6 @@
 #include "NumberTest.h"
     using ::testing::Eq;
+        using ::testing::ValuesIn;
 
 class TestValidDigits: public NumberCharTester {  };
 TEST_P(TestValidDigits, AreAccepted) { ASSERT_TRUE(_token->accepts(GetParam())); }

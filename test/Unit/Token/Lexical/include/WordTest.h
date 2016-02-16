@@ -5,6 +5,7 @@
 #include "Word.h"
     using ::Token::Lexical::Word;
 
-class WordTester: public TokenCharTester<Word> {  };
+class WordCharTester: public TokenCharTester<Word> {  };
+class WordStringTester: public TokenStringTester<Word> {  };
 
 #endif
