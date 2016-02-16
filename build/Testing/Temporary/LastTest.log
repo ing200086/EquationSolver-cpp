@@ -1,36 +1,36 @@
-Start testing: Feb 15 08:11 CST
+Start testing: Feb 15 20:47 CST
 ----------------------------------------------------------
 1/1 Testing: UT_Tokens
 1/1 Test: UT_Tokens
 Command: "/home/daniel/Workspace/EquationSolver-cpp/build/test/Unit/Token/Lexical/UT_Tokens"
 Directory: /home/daniel/Workspace/EquationSolver-cpp/build/test/Unit/Token/Lexical
-"UT_Tokens" start time: Feb 15 08:11 CST
+"UT_Tokens" start time: Feb 15 20:47 CST
 Output:
 ----------------------------------------------------------
 [==========] Running 83 tests from 7 test cases.
 [----------] Global test environment set-up.
-[----------] 10 tests from ValidIntegers/TestValidDigits
-[ RUN      ] ValidIntegers/TestValidDigits.AreAccepted/0
-[       OK ] ValidIntegers/TestValidDigits.AreAccepted/0 (0 ms)
-[ RUN      ] ValidIntegers/TestValidDigits.AreAccepted/1
-[       OK ] ValidIntegers/TestValidDigits.AreAccepted/1 (0 ms)
-[ RUN      ] ValidIntegers/TestValidDigits.AreAccepted/2
-[       OK ] ValidIntegers/TestValidDigits.AreAccepted/2 (0 ms)
-[ RUN      ] ValidIntegers/TestValidDigits.AreAccepted/3
-[       OK ] ValidIntegers/TestValidDigits.AreAccepted/3 (0 ms)
-[ RUN      ] ValidIntegers/TestValidDigits.AreAccepted/4
-[       OK ] ValidIntegers/TestValidDigits.AreAccepted/4 (0 ms)
-[ RUN      ] ValidIntegers/TestValidDigits.AreAccepted/5
-[       OK ] ValidIntegers/TestValidDigits.AreAccepted/5 (0 ms)
-[ RUN      ] ValidIntegers/TestValidDigits.AreAccepted/6
-[       OK ] ValidIntegers/TestValidDigits.AreAccepted/6 (0 ms)
-[ RUN      ] ValidIntegers/TestValidDigits.AreAccepted/7
-[       OK ] ValidIntegers/TestValidDigits.AreAccepted/7 (0 ms)
-[ RUN      ] ValidIntegers/TestValidDigits.AreAccepted/8
-[       OK ] ValidIntegers/TestValidDigits.AreAccepted/8 (0 ms)
-[ RUN      ] ValidIntegers/TestValidDigits.AreAccepted/9
-[       OK ] ValidIntegers/TestValidDigits.AreAccepted/9 (0 ms)
-[----------] 10 tests from ValidIntegers/TestValidDigits (0 ms total)
+[----------] 10 tests from Digits/TestValidDigits
+[ RUN      ] Digits/TestValidDigits.AreAccepted/0
+[       OK ] Digits/TestValidDigits.AreAccepted/0 (0 ms)
+[ RUN      ] Digits/TestValidDigits.AreAccepted/1
+[       OK ] Digits/TestValidDigits.AreAccepted/1 (0 ms)
+[ RUN      ] Digits/TestValidDigits.AreAccepted/2
+[       OK ] Digits/TestValidDigits.AreAccepted/2 (0 ms)
+[ RUN      ] Digits/TestValidDigits.AreAccepted/3
+[       OK ] Digits/TestValidDigits.AreAccepted/3 (0 ms)
+[ RUN      ] Digits/TestValidDigits.AreAccepted/4
+[       OK ] Digits/TestValidDigits.AreAccepted/4 (0 ms)
+[ RUN      ] Digits/TestValidDigits.AreAccepted/5
+[       OK ] Digits/TestValidDigits.AreAccepted/5 (0 ms)
+[ RUN      ] Digits/TestValidDigits.AreAccepted/6
+[       OK ] Digits/TestValidDigits.AreAccepted/6 (0 ms)
+[ RUN      ] Digits/TestValidDigits.AreAccepted/7
+[       OK ] Digits/TestValidDigits.AreAccepted/7 (0 ms)
+[ RUN      ] Digits/TestValidDigits.AreAccepted/8
+[       OK ] Digits/TestValidDigits.AreAccepted/8 (0 ms)
+[ RUN      ] Digits/TestValidDigits.AreAccepted/9
+[       OK ] Digits/TestValidDigits.AreAccepted/9 (0 ms)
+[----------] 10 tests from Digits/TestValidDigits (0 ms total)
 
 [----------] 26 tests from Alphas/TestNonDigits
 [ RUN      ] Alphas/TestNonDigits.AreRejected/0
@@ -100,10 +100,10 @@ Output:
 [       OK ] Symbols/TestNonDigits.AreRejected/4 (0 ms)
 [----------] 5 tests from Symbols/TestNonDigits (0 ms total)
 
-[----------] 1 test from ValidIntegers/TestValidIntegers
-[ RUN      ] ValidIntegers/TestValidIntegers.AreAccepted/0
-[       OK ] ValidIntegers/TestValidIntegers.AreAccepted/0 (0 ms)
-[----------] 1 test from ValidIntegers/TestValidIntegers (0 ms total)
+[----------] 1 test from ValidIntegers/TestValidIntegerString
+[ RUN      ] ValidIntegers/TestValidIntegerString.ReturnsTheInteger/0
+[       OK ] ValidIntegers/TestValidIntegerString.ReturnsTheInteger/0 (0 ms)
+[----------] 1 test from ValidIntegers/TestValidIntegerString (0 ms total)
 
 [----------] 26 tests from ValidAlphas/TestValidAlphas
 [ RUN      ] ValidAlphas/TestValidAlphas.AreAccepted/0
@@ -203,8 +203,8 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"UT_Tokens" end time: Feb 15 08:11 CST
+"UT_Tokens" end time: Feb 15 20:47 CST
 "UT_Tokens" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Feb 15 08:11 CST
+End testing: Feb 15 20:47 CST
