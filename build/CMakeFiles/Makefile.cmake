@@ -16,7 +16,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../src/CMakeLists.txt"
   "../src/Token/Lexical/CMakeLists.txt"
   "../test/CMakeLists.txt"
+  "../test/Integration/CMakeLists.txt"
   "../test/Unit/CMakeLists.txt"
+  "../test/Unit/MathTokenizer/CMakeLists.txt"
   "../test/Unit/Token/Lexical/CMakeLists.txt"
   "/usr/share/cmake-3.2/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.2/Modules/CMakeCXXInformation.cmake"
@@ -55,6 +57,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "test/CMakeFiles/CMakeDirectoryInformation.cmake"
   "test/Unit/CMakeFiles/CMakeDirectoryInformation.cmake"
   "test/Unit/Token/Lexical/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "test/Unit/MathTokenizer/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "test/Integration/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/Token/Lexical/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
@@ -64,5 +68,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "test/CMakeFiles/gtest.dir/DependInfo.cmake"
   "test/CMakeFiles/gmock.dir/DependInfo.cmake"
   "test/Unit/Token/Lexical/CMakeFiles/UT_Tokens.dir/DependInfo.cmake"
+  "test/Unit/MathTokenizer/CMakeFiles/UT_MathTokenizer.dir/DependInfo.cmake"
   "src/Token/Lexical/CMakeFiles/TokenLexical.dir/DependInfo.cmake"
   )

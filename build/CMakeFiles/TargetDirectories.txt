@@ -1,3 +1,4 @@
+/home/daniel/Workspace/EquationSolver-cpp/build/test/Unit/MathTokenizer/CMakeFiles/UT_MathTokenizer.dir
 /home/daniel/Workspace/EquationSolver-cpp/build/test/CMakeFiles/gtest.dir
 /home/daniel/Workspace/EquationSolver-cpp/build/src/Token/Lexical/CMakeFiles/TokenLexical.dir
 /home/daniel/Workspace/EquationSolver-cpp/build/test/CMakeFiles/gmock.dir

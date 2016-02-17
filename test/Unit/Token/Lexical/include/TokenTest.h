@@ -8,7 +8,7 @@
     using ::std::unique_ptr;
 
 #include "IToken.h"
-    using ::Token::Lexical::IToken;
+    using ::Token::IToken;
 
 #include <string>
     using ::std::string;

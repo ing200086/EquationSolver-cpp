@@ -5,7 +5,6 @@
 
 
 namespace Token {
-    namespace Lexical {
 using ::std::string;
 
 class IToken {
@@ -15,7 +14,6 @@ public:
     virtual bool accepts(const char &c) =0;
 };
 
-    } // Namespace Lexical
 } // Namespace Token
 
 #endif

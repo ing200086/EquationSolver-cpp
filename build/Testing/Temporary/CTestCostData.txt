@@ -1,3 +1,4 @@
 UT_Tokens_Number 4 0.000353992
-UT_Tokens 86 3.80693e-05
+UT_Tokens 94 3.37337e-05
+UT_MathTokenizer 3 0.000368675
 ---

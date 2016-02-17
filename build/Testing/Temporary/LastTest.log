@@ -1,10 +1,10 @@
-Start testing: Feb 15 20:56 CST
+Start testing: Feb 17 07:30 CST
 ----------------------------------------------------------
-1/1 Testing: UT_Tokens
-1/1 Test: UT_Tokens
+1/2 Testing: UT_Tokens
+1/2 Test: UT_Tokens
 Command: "/home/daniel/Workspace/EquationSolver-cpp/build/test/Unit/Token/Lexical/UT_Tokens"
 Directory: /home/daniel/Workspace/EquationSolver-cpp/build/test/Unit/Token/Lexical
-"UT_Tokens" start time: Feb 15 20:56 CST
+"UT_Tokens" start time: Feb 17 07:30 CST
 Output:
 ----------------------------------------------------------
 [==========] Running 87 tests from 8 test cases.
@@ -139,7 +139,7 @@ Output:
 [ RUN      ] ValidAlphas/TestValidAlphas.AreAccepted/14
 [       OK ] ValidAlphas/TestValidAlphas.AreAccepted/14 (0 ms)
 [ RUN      ] ValidAlphas/TestValidAlphas.AreAccepted/15
-[       OK ] ValidAlphas/TestValidAlphas.AreAccepted/15 (1 ms)
+[       OK ] ValidAlphas/TestValidAlphas.AreAccepted/15 (0 ms)
 [ RUN      ] ValidAlphas/TestValidAlphas.AreAccepted/16
 [       OK ] ValidAlphas/TestValidAlphas.AreAccepted/16 (0 ms)
 [ RUN      ] ValidAlphas/TestValidAlphas.AreAccepted/17
@@ -208,14 +208,39 @@ Output:
 [----------] 3 tests from ValidWords/TestValidWordString (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 87 tests from 8 test cases ran. (2 ms total)
+[==========] 87 tests from 8 test cases ran. (1 ms total)
 [  PASSED  ] 87 tests.
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"UT_Tokens" end time: Feb 15 20:56 CST
+"UT_Tokens" end time: Feb 17 07:30 CST
 "UT_Tokens" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Feb 15 20:56 CST
+2/2 Testing: UT_MathTokenizer
+2/2 Test: UT_MathTokenizer
+Command: "/home/daniel/Workspace/EquationSolver-cpp/build/test/Unit/MathTokenizer/UT_MathTokenizer"
+Directory: /home/daniel/Workspace/EquationSolver-cpp/build/test/Unit/MathTokenizer
+"UT_MathTokenizer" start time: Feb 17 07:30 CST
+Output:
+----------------------------------------------------------
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from Tokenizer
+[ RUN      ] Tokenizer.ReadsNumbersAsOneToken
+[       OK ] Tokenizer.ReadsNumbersAsOneToken (1 ms)
+[----------] 1 test from Tokenizer (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"UT_MathTokenizer" end time: Feb 17 07:30 CST
+"UT_MathTokenizer" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Feb 17 07:30 CST

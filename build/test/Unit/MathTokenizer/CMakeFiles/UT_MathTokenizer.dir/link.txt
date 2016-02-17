@@ -1,0 +1,1 @@
+/usr/bin/c++    -Wall -std=gnu++0x   CMakeFiles/UT_MathTokenizer.dir/MathTokenizer.cpp.o CMakeFiles/UT_MathTokenizer.dir/__/main.cpp.o  -o UT_MathTokenizer -rdynamic ../../../src/Token/Lexical/libTokenLexical.a ../../gtest/src/gtest-build/libgtest.a ../../gmock/src/gmock-build/libgmock.a -lpthread 
